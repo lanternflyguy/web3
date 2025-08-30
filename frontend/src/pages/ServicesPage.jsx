@@ -106,7 +106,7 @@ const ServicesPage = () => {
               },
               {
                 step: 3,
-                title: "BT Gen 2 Application",
+                title: "Patent-Pending BT Gen 2 Application",
                 description: "Deploy our patent-pending elimination system with precision",
                 icon: "🎯"
               },
