@@ -20,7 +20,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Premier spotted lanternfly elimination specialists using cutting-edge BT Gen 2 technology. 
+              Premier spotted lanternfly elimination specialists using cutting-edge patent-pending BT Gen 2 technology. 
               Protecting homes, businesses, and communities with eco-friendly solutions.
             </p>
           </div>
