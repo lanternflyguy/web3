@@ -81,7 +81,7 @@ export const reviews = [
     name: "Sarah Johnson",
     location: "Westchester County, NY",
     rating: 5,
-    text: "The Lantern Fly Guys saved our vineyard! Their BT Gen 2 system eliminated the spotted lanternfly problem completely. Professional, knowledgeable, and results-driven.",
+    text: "The Lantern Fly Guys saved our vineyard! Their patent-pending BT Gen 2 system eliminated the spotted lanternfly problem completely. Professional, knowledgeable, and results-driven.",
     service: "Winery Protection",
     date: "2024-08-15"
   },
