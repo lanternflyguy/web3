@@ -311,7 +311,7 @@ const ContactPage = () => {
                 <CardContent className="space-y-4">
                   {[
                     { icon: CheckCircle, title: "Free Property Assessment", description: "Comprehensive evaluation at no cost" },
-                    { icon: Shield, title: "85-90% Elimination Rate", description: "Proven effectiveness with our BT Gen 2 system" },
+                    { icon: Shield, title: "85-90% Elimination Rate", description: "Proven effectiveness with our patent-pending BT Gen 2 system" },
                     { icon: Zap, title: "24/7 Emergency Response", description: "Available for urgent pest situations" }
                   ].map((guarantee, index) => (
                     <div key={index} className="flex items-start space-x-3">
