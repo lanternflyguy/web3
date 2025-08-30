@@ -40,7 +40,7 @@ const HomePage = () => {
                   <span className="text-green-600 block">Spotted Lanternflies</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  Advanced BT Gen 2 technology achieves 85-90% elimination with season-long protection. 
+                  Advanced patent-pending BT Gen 2 technology achieves 85-90% elimination with season-long protection. 
                   OMRI organic compliant and completely safe for families and pets.
                 </p>
               </div>
