@@ -160,7 +160,7 @@ const generateAdditionalReviews = () => {
   const reviewTexts = [
     "Exceptional service! The team was professional and got rid of our spotted lanternfly problem quickly.",
     "Highly recommend The Lantern Fly Guys. Their eco-friendly approach worked perfectly for our property.",
-    "Outstanding results with their BT Gen 2 system. No more pest issues and our trees are healthier than ever.",
+    "Outstanding results with their patent-pending BT Gen 2 system. No more pest issues and our trees are healthier than ever.",
     "Professional, punctual, and effective. The best pest control service we've ever used.",
     "Amazing customer service and fantastic results. Our property is completely protected now.",
     "The team went above and beyond our expectations. Thorough inspection and perfect execution.",
