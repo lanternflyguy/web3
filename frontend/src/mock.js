@@ -59,7 +59,7 @@ export const services = [
 
 export const technologyFeatures = [
   {
-    title: "BT Gen 2 Enhanced Management System",
+    title: "Patent-Pending BT Gen 2 Enhanced Management System",
     description: "Our patent-pending elimination technology achieves 85-90% spotted lanternfly elimination",
     benefits: ["Season-long protection", "Eco-friendly approach", "OMRI organic compliance", "Proven effectiveness"]
   },
