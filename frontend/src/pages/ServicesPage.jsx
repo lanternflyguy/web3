@@ -31,7 +31,7 @@ const ServicesPage = () => {
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               From residential properties to large-scale municipal projects, we provide 
-              tailored solutions using our revolutionary BT Gen 2 technology.
+              tailored solutions using our revolutionary patent-pending BT Gen 2 technology.
             </p>
           </div>
         </div>
