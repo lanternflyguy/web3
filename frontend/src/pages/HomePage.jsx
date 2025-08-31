@@ -44,7 +44,7 @@ const HomePage = () => {
                   <Crown className="h-4 w-4 mr-2" />
                   White-Glove Spotted Lanternfly Specialists
                 </Badge>
-                <h1 className="text-5xl lg:text-7xl font-bold text-slate-900 leading-tight">
+                <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight">
                   Elite Property Protection from 
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-700 block">
                     Spotted Lanternflies
