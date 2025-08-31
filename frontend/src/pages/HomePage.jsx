@@ -346,7 +346,7 @@ const HomePage = () => {
             </div>
             <div className="flex items-center space-x-2">
               <CheckCircle className="h-5 w-5 text-green-400" />
-              <span>24/7 Concierge Service</span>
+              <span>24/7 Emergency Service</span>
             </div>
           </div>
         </div>
