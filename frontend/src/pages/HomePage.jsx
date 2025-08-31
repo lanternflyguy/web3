@@ -28,6 +28,8 @@ import {
 import { companyInfo, services, technologyFeatures, allReviews, statsData } from '../mock';
 import LifecycleSection from '../components/LifecycleSection';
 import DamageShowcase from '../components/DamageShowcase';
+import LocalSEO from '../components/LocalSEO';
+import PhoneTracking from '../components/PhoneTracking';
 
 const HomePage = () => {
   const featuredReviews = allReviews.slice(0, 6);
