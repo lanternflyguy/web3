@@ -247,7 +247,7 @@ const HomePage = () => {
               <Star className="h-4 w-4 mr-2" />
               Client Excellence
             </Badge>
-            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900">
+            <h2 className="text-4xl lg:text-5xl font-bold text-white">
               What Our Discerning Clients Say
             </h2>
             <div className="flex items-center justify-center space-x-4">
