@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Shield, Phone, Mail, MapPin, Clock } from 'lucide-react';
 import { companyInfo } from '../mock';
+import SocialMediaLinks from './SocialMediaLinks';
+import PhoneTracking from './PhoneTracking';
 
 const Footer = () => {
   return (
