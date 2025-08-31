@@ -99,7 +99,7 @@ const Header = () => {
                         {companyInfo.name}
                       </span>
                       <span className="text-sm text-slate-600">
-                        Premium Specialists
+                        Pest Control Specialists
                       </span>
                     </div>
                   </div>
