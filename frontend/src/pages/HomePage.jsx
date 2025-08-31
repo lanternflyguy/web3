@@ -190,15 +190,15 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6 mb-20">
             <Badge className="bg-gradient-to-r from-green-100 to-emerald-100 text-green-800 font-semibold px-4 py-2">
-              <Crown className="h-4 w-4 mr-2" />
-              White-Glove Solutions
+              <Shield className="h-4 w-4 mr-2" />
+              Comprehensive Solutions
             </Badge>
             <h2 className="text-4xl lg:text-5xl font-bold text-white">
-              Exclusive Services for Discerning Clients
+              Services for Every Property Type
             </h2>
             <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-              From luxury residential estates to premier commercial properties, 
-              we provide tailored spotted lanternfly elimination solutions that exceed expectations.
+              From residential homes to large commercial properties, 
+              we provide tailored spotted lanternfly elimination solutions for every need and budget.
             </p>
           </div>
 
