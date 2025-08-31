@@ -144,7 +144,7 @@ const HomePage = () => {
               <Award className="h-4 w-4 mr-2" />
               Revolutionary Technology
             </Badge>
-            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900">
+            <h2 className="text-4xl lg:text-5xl font-bold text-white">
               Patent-Pending BT Gen 2 Enhanced Management System
             </h2>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
