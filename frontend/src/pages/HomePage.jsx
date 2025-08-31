@@ -213,7 +213,15 @@ const HomePage = () => {
                                    service.icon === 'Building' ? Building :
                                    service.icon === 'Users' ? Users :
                                    service.icon === 'MapPin' ? MapPin :
-                                   service.icon === 'Zap' ? Zap : Shield;
+                                   service.icon === 'Zap' ? Zap :
+                                   service.icon === 'Target' ? Target :
+                                   service.icon === 'TreePine' ? TreePine :
+                                   service.icon === 'Search' ? Search :
+                                   service.icon === 'Calendar' ? Calendar :
+                                   service.icon === 'MessageSquare' ? MessageSquare :
+                                   service.icon === 'BookOpen' ? BookOpen :
+                                   service.icon === 'FileText' ? FileText :
+                                   service.icon === 'Leaf' ? Leaf : Shield;
               
               return (
                 <Card key={service.id} className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 bg-slate-700/80 backdrop-blur-sm border border-slate-600 group">
