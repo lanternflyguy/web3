@@ -307,15 +307,15 @@ const HomePage = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-10 relative">
           <div className="space-y-6">
             <Badge className="bg-gradient-to-r from-red-500/20 to-orange-500/20 text-red-300 border-red-500/30 font-semibold px-4 py-2">
-              <Crown className="h-4 w-4 mr-2" />
-              Elite Property Protection
+              <Shield className="h-4 w-4 mr-2" />
+              Complete Property Protection
             </Badge>
             <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
-              Ready to Protect Your Premium Property?
+              Ready to Protect Your Property?
             </h2>
             <p className="text-xl text-slate-300 leading-relaxed max-w-3xl mx-auto">
-              Don't let spotted lanternflies compromise your valuable investment. Join thousands of discerning 
-              property owners who trust our proven elimination system and white-glove service.
+              Don't let spotted lanternflies damage your property and landscape. Join thousands of satisfied 
+              customers who trust our proven elimination system and professional service.
             </p>
           </div>
           
