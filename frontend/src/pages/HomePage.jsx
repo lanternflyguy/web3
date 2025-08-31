@@ -193,7 +193,7 @@ const HomePage = () => {
               <Crown className="h-4 w-4 mr-2" />
               White-Glove Solutions
             </Badge>
-            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900">
+            <h2 className="text-4xl lg:text-5xl font-bold text-white">
               Exclusive Services for Discerning Clients
             </h2>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
