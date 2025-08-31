@@ -216,8 +216,8 @@ const HomePage = () => {
                     <div className="w-16 h-16 bg-gradient-to-br from-slate-600 to-slate-800 rounded-2xl flex items-center justify-center group-hover:from-red-600 group-hover:to-red-700 transition-all duration-300">
                       <IconComponent className="h-8 w-8 text-white" />
                     </div>
-                    <CardTitle className="text-2xl text-slate-900">{service.title}</CardTitle>
-                    <CardDescription className="text-base text-slate-600 leading-relaxed">{service.description}</CardDescription>
+                    <CardTitle className="text-2xl text-white">{service.title}</CardTitle>
+                    <CardDescription className="text-base text-slate-300 leading-relaxed">{service.description}</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-3 mb-8">
