@@ -64,7 +64,7 @@ const HomePage = () => {
                     <ArrowRight className="ml-3 h-5 w-5" />
                   </Link>
                 </Button>
-                <Button size="lg" variant="outline" className="text-lg px-10 py-7 border-2 border-slate-300 text-slate-700 hover:bg-slate-50 hover:border-slate-400 transition-all duration-300" asChild>
+                <Button size="lg" variant="outline" className="text-lg px-10 py-7 border-2 border-slate-400 text-white hover:bg-white/10 hover:border-slate-300 transition-all duration-300" asChild>
                   <a href={`tel:${companyInfo.phone}`}>
                     <Phone className="mr-3 h-5 w-5" />
                     {companyInfo.phone}
