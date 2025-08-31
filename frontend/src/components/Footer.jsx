@@ -106,6 +106,25 @@ const Footer = () => {
                   <p className="text-green-400 text-sm font-medium">{companyInfo.emergencyService}</p>
                 </div>
               </div>
+
+              {/* Social Media Links */}
+              <div className="md:col-span-1">
+                <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
+                <div className="space-y-4">
+                  <p className="text-gray-300 text-sm">
+                    Connect with us on social media for pest control tips, company updates, and educational content.
+                  </p>
+                  <SocialMediaLinks 
+                    className="flex space-x-4"
+                    showLabels={false}
+                  />
+                  <div className="text-xs text-gray-400">
+                    <p>📱 TikTok: Educational videos</p>
+                    <p>💼 LinkedIn: Industry insights</p>
+                    <p>📘 Facebook: Tips & updates</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
