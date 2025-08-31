@@ -263,7 +263,7 @@ const HomePage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredReviews.map((review) => (
-              <Card key={review.id} className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 bg-white/90 backdrop-blur-sm">
+              <Card key={review.id} className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 bg-slate-700/90 backdrop-blur-sm border border-slate-600">
                 <CardContent className="p-8">
                   <div className="space-y-6">
                     <div className="flex justify-between items-start">
