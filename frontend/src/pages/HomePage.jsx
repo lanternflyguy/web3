@@ -87,7 +87,7 @@ const HomePage = () => {
                 </div>
                 <div className="text-slate-300">
                   <div className="font-bold text-white text-lg">10,000+</div>
-                  <div className="text-sm">Premium Properties Protected</div>
+                  <div className="text-sm">Properties Protected</div>
                 </div>
               </div>
             </div>
