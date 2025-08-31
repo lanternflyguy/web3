@@ -59,8 +59,8 @@ const HomePage = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white text-lg px-10 py-7 shadow-xl hover:shadow-2xl transition-all duration-300" asChild>
                   <Link to="/contact">
-                    <Crown className="mr-3 h-5 w-5" />
-                    Premium Assessment
+                    <Shield className="mr-3 h-5 w-5" />
+                    Free Assessment
                     <ArrowRight className="ml-3 h-5 w-5" />
                   </Link>
                 </Button>
