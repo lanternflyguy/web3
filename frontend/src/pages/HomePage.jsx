@@ -119,7 +119,7 @@ const HomePage = () => {
             {[
               { number: "10,000+", label: "Properties Protected", icon: Shield },
               { number: "85-90%", label: "Elimination Success Rate", icon: Target },
-              { number: "24/7", label: "Concierge Response", icon: Clock },
+              { number: "24/7", label: "Emergency Response", icon: Clock },
               { number: "100%", label: "Organic Certified", icon: Leaf }
             ].map((stat, index) => (
               <div key={index} className="text-center space-y-4">
