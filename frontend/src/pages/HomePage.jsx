@@ -17,8 +17,13 @@ import {
   Home,
   MapPin,
   ArrowRight,
-  Crown,
-  Award
+  Award,
+  TreePine,
+  Search,
+  Calendar,
+  MessageSquare,
+  BookOpen,
+  FileText
 } from 'lucide-react';
 import { companyInfo, services, technologyFeatures, allReviews, statsData } from '../mock';
 import LifecycleSection from '../components/LifecycleSection';
