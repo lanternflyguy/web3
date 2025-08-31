@@ -45,7 +45,7 @@ const HomePage = () => {
                   Professional Spotted Lanternfly Specialists
                 </Badge>
                 <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight">
-                  Elite Property Protection from 
+                  Complete Property Protection from 
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-700 block">
                     Spotted Lanternflies
                   </span>
