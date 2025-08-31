@@ -85,8 +85,8 @@ const HomePage = () => {
                     <div className="text-slate-300 text-sm">({allReviews.length} verified clients)</div>
                   </div>
                 </div>
-                <div className="text-slate-600">
-                  <div className="font-bold text-slate-900 text-lg">10,000+</div>
+                <div className="text-slate-300">
+                  <div className="font-bold text-white text-lg">10,000+</div>
                   <div className="text-sm">Premium Properties Protected</div>
                 </div>
               </div>
