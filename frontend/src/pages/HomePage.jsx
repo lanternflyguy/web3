@@ -41,8 +41,8 @@ const HomePage = () => {
             <div className="space-y-10">
               <div className="space-y-6">
                 <Badge className="bg-gradient-to-r from-red-100 to-orange-100 text-red-800 hover:from-red-200 hover:to-orange-200 border-red-200 font-semibold px-4 py-2">
-                  <Crown className="h-4 w-4 mr-2" />
-                  White-Glove Spotted Lanternfly Specialists
+                  <Shield className="h-4 w-4 mr-2" />
+                  Professional Spotted Lanternfly Specialists
                 </Badge>
                 <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight">
                   Elite Property Protection from 
