@@ -9,6 +9,8 @@ import WineryPage from "./pages/WineryPage";
 import MunicipalPage from "./pages/MunicipalPage";
 import ReviewsPage from "./pages/ReviewsPage";
 import ContactPage from "./pages/ContactPage";
+import ReproductionPage from "./pages/ReproductionPage";
+import SterilizationPage from "./pages/SterilizationPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import GoogleAnalytics from "./components/GoogleAnalytics";
