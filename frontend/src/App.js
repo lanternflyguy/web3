@@ -16,24 +16,27 @@ import { Toaster } from "./components/ui/toaster";
 
 function App() {
   return (
-    <div className="App min-h-screen flex flex-col">
-      <BrowserRouter>
-        <Header />
-        <main className="flex-1">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/services" element={<ServicesPage />} />
-            <Route path="/hoa" element={<HOAPage />} />
-            <Route path="/wineries" element={<WineryPage />} />
-            <Route path="/municipal" element={<MunicipalPage />} />
-            <Route path="/reviews" element={<ReviewsPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-          </Routes>
-        </main>
-        <Footer />
-        <Toaster />
-      </BrowserRouter>
-    </div>
+    <HelmetProvider>
+      <div className="App min-h-screen flex flex-col">
+        <GoogleAnalytics measurementId="G-XXXXXXXXXX" />
+        <BrowserRouter>
+          <Header />
+          <main className="flex-1">
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/services" element={<ServicesPage />} />
+              <Route path="/hoa" element={<HOAPage />} />
+              <Route path="/wineries" element={<WineryPage />} />
+              <Route path="/municipal" element={<MunicipalPage />} />
+              <Route path="/reviews" element={<ReviewsPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+            </Routes>
+          </main>
+          <Footer />
+          <Toaster />
+        </BrowserRouter>
+      </div>
+    </HelmetProvider>
   );
 }
 
