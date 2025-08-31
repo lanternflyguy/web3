@@ -5,6 +5,7 @@ import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 import { Menu, Phone, Crown, Shield } from 'lucide-react';
 import { companyInfo } from '../mock';
 import Logo from './Logo';
+import PhoneTracking from './PhoneTracking';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
