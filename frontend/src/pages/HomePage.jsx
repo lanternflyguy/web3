@@ -257,7 +257,7 @@ const HomePage = () => {
                 ))}
               </div>
               <span className="text-3xl font-bold text-white">{averageRating}/5</span>
-              <span className="text-xl text-slate-300">from {allReviews.length} verified clients</span>
+              <span className="text-xl text-slate-300">from {allReviews.length} verified customers</span>
             </div>
           </div>
 
