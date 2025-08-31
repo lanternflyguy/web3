@@ -256,8 +256,8 @@ const HomePage = () => {
                   <Star key={i} className="h-8 w-8 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <span className="text-3xl font-bold text-slate-900">{averageRating}/5</span>
-              <span className="text-xl text-slate-600">from {allReviews.length} verified clients</span>
+              <span className="text-3xl font-bold text-white">{averageRating}/5</span>
+              <span className="text-xl text-slate-300">from {allReviews.length} verified clients</span>
             </div>
           </div>
 
