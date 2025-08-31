@@ -160,8 +160,8 @@ const HomePage = () => {
                   <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-2xl flex items-center justify-center">
                     <Zap className="h-8 w-8 text-white" />
                   </div>
-                  <CardTitle className="text-2xl text-slate-900">{feature.title}</CardTitle>
-                  <CardDescription className="text-base text-slate-600 leading-relaxed">{feature.description}</CardDescription>
+                  <CardTitle className="text-2xl text-white">{feature.title}</CardTitle>
+                  <CardDescription className="text-base text-slate-300 leading-relaxed">{feature.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
