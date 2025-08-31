@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HelmetProvider } from 'react-helmet-async';
 import HomePage from "./pages/HomePage";
 import ServicesPage from "./pages/ServicesPage";
 import HOAPage from "./pages/HOAPage";
@@ -10,6 +11,7 @@ import ReviewsPage from "./pages/ReviewsPage";
 import ContactPage from "./pages/ContactPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 import { Toaster } from "./components/ui/toaster";
 
 function App() {
