@@ -290,7 +290,7 @@ const HomePage = () => {
           <div className="text-center mt-16">
             <Button asChild size="lg" variant="outline" className="border-2 border-slate-400 text-slate-200 hover:bg-slate-700/50 hover:border-slate-300 px-8 py-6">
               <Link to="/reviews">
-                View All {allReviews.length} Client Reviews
+                View All {allReviews.length} Customer Reviews
                 <ArrowRight className="ml-3 h-5 w-5" />
               </Link>
             </Button>
