@@ -186,7 +186,7 @@ const HomePage = () => {
       <DamageShowcase />
 
       {/* Premium Services Section */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6 mb-20">
             <Badge className="bg-gradient-to-r from-green-100 to-emerald-100 text-green-800 font-semibold px-4 py-2">
