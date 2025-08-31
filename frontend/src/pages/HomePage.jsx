@@ -196,7 +196,7 @@ const HomePage = () => {
             <h2 className="text-4xl lg:text-5xl font-bold text-white">
               Exclusive Services for Discerning Clients
             </h2>
-            <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
               From luxury residential estates to premier commercial properties, 
               we provide tailored spotted lanternfly elimination solutions that exceed expectations.
             </p>
