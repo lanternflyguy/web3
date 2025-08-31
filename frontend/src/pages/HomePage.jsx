@@ -322,8 +322,8 @@ const HomePage = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Button size="lg" className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white text-lg px-12 py-7 shadow-2xl hover:shadow-red-500/25 transition-all duration-300" asChild>
               <Link to="/contact">
-                <Crown className="mr-3 h-6 w-6" />
-                Schedule Premium Assessment
+                <Shield className="mr-3 h-6 w-6" />
+                Schedule Free Assessment
                 <ArrowRight className="ml-3 h-6 w-6" />
               </Link>
             </Button>
