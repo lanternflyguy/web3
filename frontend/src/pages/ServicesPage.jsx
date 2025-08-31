@@ -13,7 +13,14 @@ import {
   Zap,
   Leaf,
   Phone,
-  ArrowRight
+  ArrowRight,
+  Target,
+  TreePine,
+  Search,
+  Calendar,
+  MessageSquare,
+  BookOpen,
+  FileText
 } from 'lucide-react';
 import { services, technologyFeatures, companyInfo } from '../mock';
 
