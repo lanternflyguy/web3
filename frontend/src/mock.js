@@ -22,38 +22,80 @@ export const services = [
   },
   {
     id: 2,
-    title: "Commercial Property Services",
-    description: "Professional pest management for businesses and commercial properties",
-    features: ["Business Continuity", "Staff Training", "Regular Monitoring", "Compliance Support"],
-    icon: "Building"
+    title: "Integrated Pest Management (IPM)",
+    description: "Comprehensive pest control solutions focusing on prevention, monitoring, and environmentally responsible management",
+    features: ["Prevention Strategies", "Continuous Monitoring", "Environmental Responsibility", "Long-term Solutions"],
+    icon: "Shield"
   },
   {
     id: 3,
-    title: "HOA Communities",
-    description: "Comprehensive community-wide spotted lanternfly management programs",
-    features: ["Community Education", "Bulk Treatment Rates", "Regular Reporting", "Preventive Programs"],
-    icon: "Users"
+    title: "Spotted Lanternfly Control",
+    description: "Specialized services for identification, monitoring, and eradication of spotted lanternflies",
+    features: ["Expert Identification", "Targeted Treatments", "Commercial Property Focus", "Lifecycle Management"],
+    icon: "Target"
   },
   {
     id: 4,
-    title: "Wineries & Vineyards",
-    description: "Specialized protection for vineyards and wine-producing facilities",
-    features: ["Vine Protection", "Organic Solutions", "Harvest Protection", "Seasonal Programs"],
-    icon: "Grape"
+    title: "Heritage Tree Preservation",
+    description: "Expert assessment and treatment plans to protect mature and historically significant trees",
+    features: ["Tree Health Assessment", "Preservation Planning", "Treatment Implementation", "Ongoing Monitoring"],
+    icon: "TreePine"
   },
   {
     id: 5,
-    title: "Municipal Services",
-    description: "Large-scale pest management for cities and municipalities",
-    features: ["Public Property Treatment", "Park Protection", "Government Contracts", "Community Outreach"],
-    icon: "MapPin"
+    title: "Pest Inspections",
+    description: "Routine inspections to detect signs of pest activity and prevent infestations",
+    features: ["Regular Inspections", "Early Detection", "Preventive Approach", "Detailed Reporting"],
+    icon: "Search"
   },
   {
     id: 6,
-    title: "Emergency Response",
-    description: "Rapid response for severe infestations and urgent situations",
-    features: ["24/7 Availability", "Rapid Deployment", "Crisis Management", "Same-Day Service"],
+    title: "Treatment & Prevention Plans",
+    description: "Customized pest management plans with preventive measures and targeted treatments",
+    features: ["Custom Plans", "Preventive Measures", "Targeted Treatments", "Regular Follow-ups"],
+    icon: "Calendar"
+  },
+  {
+    id: 7,
+    title: "Consultation Services",
+    description: "Professional advice on pest management, tree preservation, and regulatory compliance",
+    features: ["Expert Advice", "Best Practices", "Regulatory Compliance", "Property Management Support"],
+    icon: "MessageSquare"
+  },
+  {
+    id: 8,
+    title: "Training & Education",
+    description: "Workshops and training sessions for property managers and staff on pest awareness and prevention",
+    features: ["Staff Training", "Educational Workshops", "Pest Awareness", "Prevention Techniques"],
+    icon: "BookOpen"
+  },
+  {
+    id: 9,
+    title: "Emergency Response Services",
+    description: "Rapid response for urgent pest issues to minimize damage and operational disruption",
+    features: ["24/7 Availability", "Rapid Response", "Crisis Management", "Minimal Disruption"],
     icon: "Zap"
+  },
+  {
+    id: 10,
+    title: "Sustainability Initiatives",
+    description: "Eco-friendly pest management solutions aligned with sustainable and environmentally conscious practices",
+    features: ["Eco-Friendly Solutions", "Sustainable Practices", "Environmental Compliance", "Green Alternatives"],
+    icon: "Leaf"
+  },
+  {
+    id: 11,
+    title: "Reporting & Documentation",
+    description: "Detailed reporting and documentation of pest management activities and regulatory compliance",
+    features: ["Detailed Reports", "Regulatory Documentation", "Activity Tracking", "Compliance Records"],
+    icon: "FileText"
+  },
+  {
+    id: 12,
+    title: "Municipal Services",
+    description: "Large-scale pest management for cities, municipalities, and government facilities",
+    features: ["Public Property Treatment", "Park Protection", "Government Contracts", "Community Outreach"],
+    icon: "MapPin"
   }
 ];
 
