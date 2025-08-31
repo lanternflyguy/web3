@@ -168,7 +168,7 @@ const HomePage = () => {
                     {feature.benefits.map((benefit, benefitIndex) => (
                       <li key={benefitIndex} className="flex items-center space-x-3">
                         <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                        <span className="text-slate-700 font-medium">{benefit}</span>
+                        <span className="text-slate-200 font-medium">{benefit}</span>
                       </li>
                     ))}
                   </ul>
