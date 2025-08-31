@@ -276,7 +276,7 @@ const HomePage = () => {
                         {review.service}
                       </Badge>
                     </div>
-                    <p className="text-slate-700 italic leading-relaxed text-lg">"{review.text}"</p>
+                    <p className="text-slate-200 italic leading-relaxed text-lg">"{review.text}"</p>
                     <div className="space-y-2 border-t border-slate-200 pt-4">
                       <p className="font-bold text-slate-900 text-lg">{review.name}</p>
                       <p className="text-slate-600">{review.location}</p>
