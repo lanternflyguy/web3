@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Optimize for search engines
+Sitemap: https://thelanternflyguy.com/sitemap.xml
+
+# Allow indexing of all important pages
+Allow: /services
+Allow: /hoa
+Allow: /wineries  
+Allow: /municipal
+Allow: /reviews
+Allow: /contact
+
+# Block any admin or sensitive areas (none currently)
+# Disallow: /admin
