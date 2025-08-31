@@ -244,11 +244,24 @@ const ContactPage = () => {
                       <Mail className="h-5 w-5 text-blue-600" />
                     </div>
                     <div>
-                      <p className="font-medium text-gray-900">Email</p>
-                      <a href={`mailto:${companyInfo.email}`} className="text-blue-600 hover:text-blue-700">
+                      <p className="font-medium text-gray-900">Primary Email</p>
+                      <a href={`mailto:${companyInfo.email}`} className="text-blue-600 hover:text-blue-700 font-medium">
                         {companyInfo.email}
                       </a>
-                      <p className="text-sm text-gray-600">We respond within 2 hours</p>
+                      <p className="text-sm text-gray-600">Business inquiries & assessments</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-4">
+                    <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Mail className="h-5 w-5 text-indigo-600" />
+                    </div>
+                    <div>
+                      <p className="font-medium text-gray-900">Technical Support</p>
+                      <a href={`mailto:${companyInfo.alternateEmail}`} className="text-indigo-600 hover:text-indigo-700 font-medium">
+                        {companyInfo.alternateEmail}
+                      </a>
+                      <p className="text-sm text-gray-600">Technical questions & follow-up</p>
                     </div>
                   </div>
 
