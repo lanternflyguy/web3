@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from './ui/button';
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
-import { Menu, Phone, Crown } from 'lucide-react';
+import { Menu, Phone, Crown, Shield } from 'lucide-react';
 import { companyInfo } from '../mock';
 import Logo from './Logo';
 
