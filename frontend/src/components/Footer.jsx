@@ -62,9 +62,13 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="h-5 w-5 text-green-400 mt-0.5 flex-shrink-0" />
                 <div>
-                  <a href={`tel:${companyInfo.phone}`} className="text-gray-300 hover:text-green-400 transition-colors font-medium">
+                  <PhoneTracking
+                    phoneNumber={companyInfo.phone}
+                    trackingId="footer-phone-primary"
+                    className="text-gray-300 hover:text-green-400 transition-colors font-medium"
+                  >
                     {companyInfo.phone}
-                  </a>
+                  </PhoneTracking>
                   <p className="text-sm text-gray-400">Primary Line</p>
                 </div>
               </div>
@@ -72,9 +76,13 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="h-5 w-5 text-green-400 mt-0.5 flex-shrink-0" />
                 <div>
-                  <a href={`tel:${companyInfo.alternatePhone}`} className="text-gray-300 hover:text-green-400 transition-colors font-medium">
+                  <PhoneTracking
+                    phoneNumber={companyInfo.alternatePhone}
+                    trackingId="footer-phone-technical"
+                    className="text-gray-300 hover:text-green-400 transition-colors font-medium"
+                  >
                     {companyInfo.alternatePhone}
-                  </a>
+                  </PhoneTracking>
                   <p className="text-sm text-gray-400">Technical Support</p>
                 </div>
               </div>
