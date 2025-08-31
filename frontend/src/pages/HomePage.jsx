@@ -147,7 +147,7 @@ const HomePage = () => {
             <h2 className="text-4xl lg:text-5xl font-bold text-white">
               Patent-Pending BT Gen 2 Enhanced Management System
             </h2>
-            <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
               Our breakthrough technology transforms trees into natural protectors, 
               achieving unmatched spotted lanternfly elimination rates with complete safety.
             </p>
