@@ -47,7 +47,7 @@ const Header = () => {
                   {companyInfo.name}
                 </span>
                 <span className="text-sm text-slate-600 font-medium tracking-wide">
-                  Premium Pest Management Specialists
+                  Professional Pest Management Specialists
                 </span>
               </div>
             </Link>
