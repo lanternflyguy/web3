@@ -228,7 +228,7 @@ const HomePage = () => {
                         </li>
                       ))}
                     </ul>
-                    <Button variant="outline" className="w-full border-slate-300 text-slate-700 hover:bg-red-50 hover:border-red-300 hover:text-red-700 transition-all duration-300">
+                    <Button variant="outline" className="w-full border-slate-400 text-slate-200 hover:bg-red-600/20 hover:border-red-400 hover:text-red-300 transition-all duration-300">
                       Learn More
                     </Button>
                   </CardContent>
