@@ -72,13 +72,14 @@ const Header = () => {
 
             {/* Phone & CTA */}
             <div className="hidden md:flex items-center space-x-4">
-              <a
-                href={`tel:${companyInfo.phone}`}
+              <PhoneTracking
+                phoneNumber={companyInfo.phone}
+                trackingId="header-phone-desktop"
                 className="flex items-center space-x-2 text-slate-700 hover:text-red-600 transition-colors font-medium"
               >
                 <Phone className="h-4 w-4" />
                 <span className="font-semibold">{companyInfo.phone}</span>
-              </a>
+              </PhoneTracking>
               <Button className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-200" asChild>
                 <Link to="/contact">Free Assessment</Link>
               </Button>
