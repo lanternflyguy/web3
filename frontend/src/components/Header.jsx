@@ -129,7 +129,7 @@ const Header = () => {
                     </a>
                     <Button className="w-full bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold" asChild>
                       <Link to="/contact" onClick={() => setIsOpen(false)}>
-                        Premium Assessment
+                        Free Assessment
                       </Link>
                     </Button>
                   </div>
