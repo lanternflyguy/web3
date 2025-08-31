@@ -81,8 +81,8 @@ const HomePage = () => {
                     ))}
                   </div>
                   <div className="space-y-1">
-                    <div className="font-bold text-white text-lg">{averageRating}/5 Excellence Rating</div>
-                    <div className="text-slate-300 text-sm">({allReviews.length} verified clients)</div>
+                    <div className="font-bold text-white text-lg">{averageRating}/5 Customer Rating</div>
+                    <div className="text-slate-300 text-sm">({allReviews.length} verified reviews)</div>
                   </div>
                 </div>
                 <div className="text-slate-300">
