@@ -155,7 +155,7 @@ const HomePage = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {technologyFeatures.map((feature, index) => (
-              <Card key={index} className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
+              <Card key={index} className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 bg-slate-700/80 backdrop-blur-sm border border-slate-600">
                 <CardHeader className="space-y-6">
                   <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-2xl flex items-center justify-center">
                     <Zap className="h-8 w-8 text-white" />
