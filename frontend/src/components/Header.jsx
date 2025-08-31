@@ -27,11 +27,11 @@ const Header = () => {
       {/* Premium Banner */}
       <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white py-3 px-4 text-center text-sm">
         <div className="flex items-center justify-center gap-3">
-          <Crown className="h-4 w-4 text-yellow-400" />
+          <Shield className="h-4 w-4 text-yellow-400" />
           <span className="font-medium">
-            White-Glove Service - Premium Spotted Lanternfly Elimination - 20% OFF New Clients
+            Professional Spotted Lanternfly Elimination - 20% OFF New Customers
           </span>
-          <Crown className="h-4 w-4 text-yellow-400" />
+          <Shield className="h-4 w-4 text-yellow-400" />
         </div>
       </div>
 
