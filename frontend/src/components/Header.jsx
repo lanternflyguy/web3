@@ -122,13 +122,14 @@ const Header = () => {
                   </nav>
 
                   <div className="pt-4 border-t border-slate-200 space-y-4">
-                    <a
-                      href={`tel:${companyInfo.phone}`}
+                    <PhoneTracking
+                      phoneNumber={companyInfo.phone}
+                      trackingId="header-phone-mobile"
                       className="flex items-center space-x-3 text-slate-700 hover:text-red-600 transition-colors"
                     >
                       <Phone className="h-5 w-5" />
                       <span className="font-semibold text-lg">{companyInfo.phone}</span>
-                    </a>
+                    </PhoneTracking>
                     <Button className="w-full bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold" asChild>
                       <Link to="/contact" onClick={() => setIsOpen(false)}>
                         Free Assessment
