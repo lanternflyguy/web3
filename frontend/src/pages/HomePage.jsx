@@ -211,7 +211,7 @@ const HomePage = () => {
                                    service.icon === 'Zap' ? Zap : Shield;
               
               return (
-                <Card key={service.id} className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 bg-white group">
+                <Card key={service.id} className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 bg-slate-700/80 backdrop-blur-sm border border-slate-600 group">
                   <CardHeader className="space-y-6">
                     <div className="w-16 h-16 bg-gradient-to-br from-slate-600 to-slate-800 rounded-2xl flex items-center justify-center group-hover:from-red-600 group-hover:to-red-700 transition-all duration-300">
                       <IconComponent className="h-8 w-8 text-white" />
