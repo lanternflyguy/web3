@@ -151,7 +151,7 @@ const DamageShowcase = () => {
                 <p className="text-slate-300 text-lg leading-relaxed">
                   The cost of professional spotted lanternfly management is minimal compared to 
                   the devastating financial and ecological damage these invasive pests can cause. 
-                  Our white-glove service protects your most valuable assets.
+                  Our professional service protects your most valuable assets.
                 </p>
               </div>
               <div className="space-y-4">
