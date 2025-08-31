@@ -278,8 +278,8 @@ const HomePage = () => {
                     </div>
                     <p className="text-slate-200 italic leading-relaxed text-lg">"{review.text}"</p>
                     <div className="space-y-2 border-t border-slate-200 pt-4">
-                      <p className="font-bold text-slate-900 text-lg">{review.name}</p>
-                      <p className="text-slate-600">{review.location}</p>
+                      <p className="font-bold text-white text-lg">{review.name}</p>
+                      <p className="text-slate-300">{review.location}</p>
                     </div>
                   </div>
                 </CardContent>
