@@ -42,7 +42,7 @@ const LocalSEO = ({ page = 'home' }) => {
     "alternateName": ["The Lantern Fly Guy Inc", "Lantern Fly Guys Nassau County", "Lantern Fly Guys Suffolk County"],
     "description": "Professional spotted lanternfly elimination specialists serving Nassau County, Suffolk County, and Dix Hills NY with patent-pending BT Gen 2 technology.",
     "url": "https://thelanternflyguy.com",
-    "telephone": "+15167250672",
+    "telephone": "+15169302508",
     "email": "chris@lanternflyguy.com",
     "address": {
       "@type": "PostalAddress",
