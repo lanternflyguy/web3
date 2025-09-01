@@ -62,6 +62,7 @@ function App() {
               <Route path="/roslyn" element={<RoslynPage />} />
               <Route path="/smithtown" element={<SmithtownPage />} />
               <Route path="/melville" element={<MelvillePage />} />
+              <Route path="/pamphlet" element={<PamphletPage />} />
             </Routes>
           </main>
           <Footer />
