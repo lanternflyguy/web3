@@ -25,6 +25,7 @@ import EastNorthportPage from "./pages/EastNorthportPage";
 import RoslynPage from "./pages/RoslynPage";
 import SmithtownPage from "./pages/SmithtownPage";
 import MelvillePage from "./pages/MelvillePage";
+import PamphletPage from "./pages/PamphletPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import GoogleAnalytics from "./components/GoogleAnalytics";
