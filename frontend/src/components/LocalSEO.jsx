@@ -153,7 +153,7 @@ const LocalSEO = ({ page = 'home' }) => {
         "@type": "Person",
         "name": "Joseph Cusick", 
         "jobTitle": "CTO & Co-Inventor",
-        "telephone": "+15167250672",
+        "telephone": "+15169302508",
         "email": "joecusick@thelanternflyguy.com"
       }
     ]
