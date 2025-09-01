@@ -163,7 +163,14 @@ const PamphletPage = () => {
                   <Phone className="h-5 w-5 text-red-600 mr-3" />
                   <div>
                     <div className="font-semibold">(516) 725-0672</div>
-                    <div className="text-sm text-slate-600">Sales & Service Support</div>
+                    <div className="text-sm text-slate-600">Sales & Service Line</div>
+                  </div>
+                </div>
+                <div className="flex items-center">
+                  <Phone className="h-5 w-5 text-red-600 mr-3" />
+                  <div>
+                    <div className="font-semibold">(631) 930-2508</div>
+                    <div className="text-sm text-slate-600">Business & Technology Info</div>
                   </div>
                 </div>
                 <div className="flex items-center">
