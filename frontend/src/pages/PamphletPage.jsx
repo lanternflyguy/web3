@@ -112,8 +112,12 @@ const PamphletPage = () => {
                 </div>
               </div>
               <div className="text-right">
+                <div className="flex items-center text-sm font-bold mb-2">
+                  <Mail className="h-4 w-4 mr-2" />
+                  chris@lanternflyguy.com
+                </div>
                 <div className="flex items-center text-xl font-bold mb-2">
-                  <Phone className="h-5 w-5 mr-2" />
+                  <Phone className="h-4 w-4 mr-2" />
                   (516) 725-0672
                 </div>
                 <div className="flex items-center text-sm">
