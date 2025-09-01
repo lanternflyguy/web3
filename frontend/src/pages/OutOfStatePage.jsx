@@ -100,7 +100,7 @@ const OutOfStatePage = () => {
                 <Link to="/contact">Request Emergency Deployment</Link>
               </Button>
               <Button variant="outline" className="border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3" asChild>
-                <a href="tel:(631) 727-0489">Emergency Hotline: (631) 727-0489</a>
+                <a href="tel:(516) 725-0672">Emergency Hotline: (516) 725-0672</a>
               </Button>
             </div>
           </div>
