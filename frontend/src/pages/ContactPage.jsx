@@ -27,7 +27,7 @@ const ContactPage = () => {
     propertyType: '',
     serviceType: '',
     message: '',
-    preferredContact: 'phone'
+    preferredContact: 'email'
   });
 
   const handleInputChange = (field, value) => {
