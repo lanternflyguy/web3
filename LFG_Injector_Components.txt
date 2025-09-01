@@ -1,0 +1,113 @@
+LFG SOIL INJECTOR 3000 - COMPONENT SPECIFICATIONS
+=====================================================
+
+COMPONENT 1: MAIN RESERVOIR TANK
+================================
+Dimensions: 150mm (L) x 100mm (W) x 200mm (H)
+Wall Thickness: 4mm
+Material: PLA+ (for prototype)
+Volume: 500ml internal capacity
+
+Features:
+- Threaded fill port (25mm diameter) at top
+- Pressure relief valve mount (M10 thread)
+- Main outlet port (1/2" NPT thread) at bottom
+- Pressure gauge mount (1/4" NPT) on front face
+- 4x mounting lugs for backpack attachment
+- Internal baffle system for chemical mixing
+
+Print Orientation: Upright (fill port up)
+Support: Yes - for threaded ports
+Infill: 40% (for pressure resistance)
+
+COMPONENT 2: INJECTION PROBE HANDLE
+===================================
+Dimensions: 300mm (L) x 40mm (W) x 35mm (H)
+Material: PLA+ 
+Weight: ~200g when printed
+
+Features:
+- Ergonomic pistol grip design
+- Trigger mechanism housing
+- Depth adjustment collar (25mm threads)
+- Quick-connect fitting mount (garden hose thread)
+- Pressure release safety valve
+- Non-slip grip texture (printed ribs)
+
+Print Orientation: Handle laying flat
+Support: Minimal - only for trigger cavity
+Infill: 25% (lightweight but strong)
+
+COMPONENT 3: TRIGGER VALVE ASSEMBLY
+===================================
+Dimensions: 80mm (L) x 50mm (W) x 30mm (H)
+Material: PLA+ (high precision required)
+
+Sub-Components:
+- Trigger body: 60mm length, 8mm travel
+- Valve seat: 20mm diameter, O-ring groove
+- Spring housing: M12 thread for adjustment
+- Safety lock mechanism
+
+Print Orientation: Trigger mechanism flat
+Support: None needed
+Infill: 100% (precision moving parts)
+
+COMPONENT 4: BACKPACK MOUNT FRAME
+=================================
+Dimensions: 250mm (H) x 200mm (W) x 50mm (D)
+Material: PLA+ (lightweight priority)
+Weight: ~300g when printed
+
+Features:
+- Tank cradle with retention straps
+- Adjustable shoulder strap mounts
+- Quick-release buckle system
+- Weight distribution padding areas
+- Tool clip attachments
+
+Print Orientation: Frame laying flat
+Support: Yes - for strap mount overhangs
+Infill: 15% (hollow frame structure)
+
+COMPONENT 5: PRESSURE GAUGE HOUSING
+===================================
+Dimensions: 80mm (L) x 60mm (W) x 40mm (H)
+Material: PLA+ (clear if available)
+
+Features:
+- Standard 2.5" gauge mount (1/4" NPT)
+- Protective cover with viewing window
+- Threaded connection to main tank
+- Shock absorption ribs
+
+Print Orientation: Housing face down
+Support: None
+Infill: 20%
+
+COMPONENT 6: FLOW CONTROL VALVE
+===============================
+Dimensions: 60mm (L) x 30mm (W) x 25mm (H)
+Material: PLA+ (precision threads required)
+
+Features:
+- Needle valve design
+- Flow rate markings (0-300ml/min)
+- Locking nut for setting
+- Inline mounting (1/2" threads both ends)
+
+Print Orientation: Valve body horizontal
+Support: None
+Infill: 100% (precision internal channels)
+
+ASSEMBLY NOTES:
+==============
+1. Print all threaded components with 0.1mm layer height
+2. Post-process threads with tap and die set
+3. Test fit all components before final assembly
+4. Use thread sealant on pressure connections
+5. Pressure test to 80 PSI before field use
+
+TOTAL PRINT TIME: ~18-24 hours
+TOTAL MATERIAL: ~800g PLA+
+ESTIMATED COST: $25-35 in materials

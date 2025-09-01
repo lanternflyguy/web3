@@ -1,0 +1,233 @@
+LFG SOIL INJECTOR 3000 - 3D MODELING BLUEPRINTS
+==================================================
+
+INSTRUCTIONS FOR CREATING STL FILES:
+====================================
+Use these specifications in CAD software like:
+- Fusion 360 (free for personal use)
+- Tinkercad (browser-based, free)
+- FreeCAD (open source)
+- SolidWorks (professional)
+
+COMPONENT 1: MAIN RESERVOIR TANK
+================================
+
+BASIC SHAPE: Rectangular tank with rounded corners
+Base Dimensions: 150mm x 100mm x 200mm (external)
+Wall Thickness: 4mm all around
+Internal Volume: 142mm x 92mm x 192mm = ~500ml
+
+FEATURES TO ADD:
+1. Fill Port (Top Center):
+   - Cylinder: 25mm diameter x 15mm height
+   - Internal thread: M24 x 2.0
+   - Position: Center of top face
+
+2. Pressure Relief Valve (Top Corner):
+   - Cylinder: 12mm diameter x 10mm height
+   - Internal thread: M10 x 1.5
+   - Position: 20mm from corner
+
+3. Main Outlet (Bottom Center):
+   - Cylinder: 20mm diameter x 12mm height
+   - Internal thread: 1/2" NPT (0.840" x 14 TPI)
+   - Position: Center of bottom face
+
+4. Pressure Gauge Mount (Front Face):
+   - Cylinder: 10mm diameter x 8mm height
+   - Internal thread: 1/4" NPT (0.540" x 18 TPI)
+   - Position: 50mm from top, centered
+
+5. Mounting Lugs (4x):
+   - Rectangular tabs: 20mm x 15mm x 8mm thick
+   - Mounting hole: 6mm diameter
+   - Position: One on each corner, 30mm from top
+
+6. Internal Baffle:
+   - Vertical plate: 138mm x 90mm x 3mm thick
+   - Position: 70mm from one end
+   - Cutout at bottom: 30mm x 20mm for flow
+
+MODELING STEPS:
+1. Create base rectangular solid 150x100x200mm
+2. Shell operation: 4mm wall thickness
+3. Add cylindrical extrusions for ports
+4. Thread features using CAD thread tool
+5. Add mounting lugs as separate bodies, then union
+6. Add internal baffle with flow cutout
+7. Fillet all external edges: 3mm radius
+8. Export as STL: Medium resolution (0.1mm tolerance)
+
+COMPONENT 2: INJECTION PROBE HANDLE
+===================================
+
+BASIC SHAPE: Pistol grip with cylindrical barrel
+Overall Length: 300mm
+Grip Height: 120mm
+Barrel Diameter: 40mm
+
+GRIP SECTION:
+- Base rectangle: 35mm x 120mm x 25mm
+- Angle: 15° back lean for ergonomics
+- Finger grooves: 3 ridges, 8mm wide x 2mm deep
+- Thumb rest: Oval depression 20mm x 15mm x 3mm deep
+
+BARREL SECTION:
+- Cylinder: 40mm diameter x 180mm length
+- Wall thickness: 5mm
+- Internal taper: 35mm to 25mm diameter
+- Quick-connect threads: Garden hose (3/4"-11.5 NPT)
+
+TRIGGER GUARD:
+- Rectangular cutout: 25mm x 60mm
+- Rounded corners: 8mm radius
+- Guard thickness: 6mm
+
+TRIGGER PIVOT:
+- Cylindrical boss: 12mm diameter x 20mm width
+- Pivot hole: 6mm diameter
+- Position: 40mm from grip bottom
+
+DEPTH ADJUSTMENT COLLAR:
+- Cylinder: 45mm diameter x 30mm length
+- External knurling: 2mm pitch diamond pattern
+- Internal threads: M25 x 2.0
+- Position: 50mm from barrel end
+
+MODELING STEPS:
+1. Start with grip rectangle, add 15° angle
+2. Add barrel cylinder, align with grip
+3. Union grip and barrel
+4. Cut trigger guard opening
+5. Add trigger pivot boss
+6. Add depth collar with knurling pattern
+7. Shell barrel for internal cavity
+8. Add ergonomic details (grips, thumb rest)
+9. Thread features for connections
+10. Export STL: High resolution (0.05mm tolerance)
+
+COMPONENT 3: TRIGGER VALVE ASSEMBLY
+===================================
+
+MAIN BODY:
+Dimensions: 80mm x 50mm x 30mm
+Material requirement: High precision
+
+TRIGGER LEVER:
+- Length: 60mm
+- Width: 15mm
+- Thickness: 8mm
+- Pivot point: 15mm from rear
+- Travel: 8mm maximum
+- Return spring mount: 6mm diameter boss
+
+VALVE SEAT:
+- Cylinder: 20mm diameter x 15mm height
+- Valve opening: 8mm diameter
+- O-ring groove: 18mm diameter x 2mm wide x 1.5mm deep
+- Sealing surface: Mirror finish required
+
+SPRING HOUSING:
+- Cylinder: 15mm diameter x 25mm length
+- External threads: M12 x 1.75
+- Internal spring cavity: 10mm diameter
+- Adjustment range: 15mm
+
+VALVE STEM:
+- Rod: 6mm diameter x 40mm length
+- Valve head: 8mm diameter x 3mm thick
+- Spring seat: 10mm diameter flange
+- Material: Requires metal rod insert
+
+SAFETY LOCK:
+- Slide mechanism: 20mm travel
+- Lock positions: Safe/Fire
+- Spring-loaded detent
+- Textured grip surface
+
+MODELING STEPS:
+1. Create main body block
+2. Add trigger lever with pivot point
+3. Create valve seat with O-ring groove
+4. Add spring housing with threads
+5. Model safety lock mechanism
+6. Create assembly with proper clearances
+7. Add spring and detent features
+8. Check interference with motion study
+9. Export individual STL files for each part
+
+COMPONENT 4: BACKPACK MOUNT FRAME
+=================================
+
+MAIN FRAME:
+Structure: Lightweight truss design
+Overall: 250mm H x 200mm W x 50mm D
+Tube diameter: 15mm (hollow printed)
+Wall thickness: 3mm
+
+TANK CRADLE:
+- Semi-circular support: 160mm diameter
+- Retention straps: 3x adjustable points
+- Cushioning ribs: 5mm x 2mm pattern
+- Quick-release mechanism
+
+SHOULDER STRAP MOUNTS:
+- Reinforced attachment points: 4x
+- Adjustment slots: 50mm travel
+- Webbing width: 50mm accommodation
+- Load rating: 50kg minimum
+
+WAIST BELT CONNECTION:
+- Hip belt attachment: 2x points
+- Pivoting connection: 15° range
+- Quick-release buckle mount
+- Load transfer design
+
+TOOL CLIPS:
+- Probe holder: Vertical clip for 300mm handle
+- Hose management: 3x clip points for 25ft hose
+- Accessory pouches: 2x small equipment holders
+
+MODELING STEPS:
+1. Create main frame using pipe/tube features
+2. Add reinforcement gussets at joints
+3. Design tank cradle with retention system
+4. Add strap mount points with slots
+5. Create tool clips and holders
+6. Add comfort padding areas
+7. Optimize for lightweight printing
+8. Stress analysis on load points
+9. Export STL with support consideration
+
+COMPONENT 5 & 6: SMALL COMPONENTS
+=================================
+
+PRESSURE GAUGE HOUSING:
+- Protective cover: 80mm x 60mm x 40mm
+- Viewing window: 50mm diameter clear area
+- Gauge mount: 1/4" NPT threaded boss
+- Impact protection: Ribbed exterior
+
+FLOW CONTROL VALVE:
+- Needle valve body: 60mm x 30mm x 25mm
+- Flow adjustment: 10 turns = 0-300ml/min
+- Calibration marks: Laser engraved or molded
+- Inline connections: 1/2" NPT both ends
+
+QUICK REFERENCE - THREAD SPECIFICATIONS:
+=======================================
+M10 x 1.5: 10mm diameter, 1.5mm pitch
+M12 x 1.75: 12mm diameter, 1.75mm pitch
+M24 x 2.0: 24mm diameter, 2.0mm pitch
+M25 x 2.0: 25mm diameter, 2.0mm pitch
+1/4" NPT: 0.540" diameter, 18 TPI
+1/2" NPT: 0.840" diameter, 14 TPI
+3/4" Garden Hose: 0.75"-11.5 NPT
+
+FILE EXPORT SETTINGS:
+====================
+STL Resolution: 0.1mm for standard parts
+STL Resolution: 0.05mm for precision parts
+Units: Millimeters
+Merge tolerance: 0.01mm
+File format: Binary STL (smaller files)

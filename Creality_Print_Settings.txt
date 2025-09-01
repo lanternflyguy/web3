@@ -1,0 +1,127 @@
+CREALITY 42-40 PRINT SETTINGS FOR LFG INJECTOR COMPONENTS
+========================================================
+
+PRINTER CONFIGURATION:
+======================
+Printer: Creality 42-40
+Build Volume: 220mm x 220mm x 250mm
+Nozzle: 0.4mm standard
+Bed: Heated glass bed
+Filament: PLA/PLA+ (1.75mm)
+
+SLICER SETTINGS (For Cura or PrusaSlicer):
+==========================================
+
+MAIN RESERVOIR TANK:
+-------------------
+Layer Height: 0.2mm
+First Layer Height: 0.3mm
+Print Speed: 50mm/s
+First Layer Speed: 20mm/s
+Infill: 40%
+Infill Pattern: Gyroid
+Wall Count: 4 (for pressure resistance)
+Top/Bottom Layers: 6
+Support: Tree supports
+Support Overhang: 45°
+Build Plate Adhesion: Brim (8mm)
+
+Temperature Settings:
+- Nozzle: 210°C (PLA+)
+- Bed: 60°C
+- Fan Speed: 100% after layer 3
+
+INJECTION PROBE HANDLE:
+----------------------
+Layer Height: 0.15mm (for smooth finish)
+Print Speed: 45mm/s
+Infill: 25%
+Infill Pattern: Grid
+Wall Count: 3
+Top/Bottom Layers: 5
+Support: Minimal (only trigger cavity)
+Build Plate Adhesion: Skirt
+
+Temperature Settings:
+- Nozzle: 205°C
+- Bed: 55°C
+- Fan Speed: 80%
+
+TRIGGER VALVE ASSEMBLY:
+----------------------
+Layer Height: 0.1mm (precision required)
+Print Speed: 30mm/s (slow for accuracy)
+Infill: 100%
+Wall Count: 4
+Support: None
+Build Plate Adhesion: Brim (5mm)
+
+Temperature Settings:
+- Nozzle: 200°C
+- Bed: 50°C
+- Fan Speed: 100%
+
+BACKPACK MOUNT FRAME:
+--------------------
+Layer Height: 0.3mm (faster print)
+Print Speed: 60mm/s
+Infill: 15%
+Infill Pattern: Lightning (fast)
+Wall Count: 2
+Support: Tree supports (for overhangs)
+Build Plate Adhesion: Skirt
+
+Temperature Settings:
+- Nozzle: 215°C
+- Bed: 60°C
+- Fan Speed: 100%
+
+PRESSURE COMPONENTS (Gauge Housing, Flow Valve):
+----------------------------------------------
+Layer Height: 0.15mm
+Print Speed: 40mm/s
+Infill: 100% (pressure critical)
+Wall Count: 4
+Support: None
+Build Plate Adhesion: Brim (3mm)
+
+Temperature Settings:
+- Nozzle: 200°C
+- Bed: 55°C
+- Fan Speed: 100%
+
+GENERAL RETRACTION SETTINGS:
+============================
+Retraction Distance: 5mm
+Retraction Speed: 45mm/s
+Z-Hop: 0.2mm
+Minimum Travel: 1.5mm
+
+POST-PROCESSING REQUIREMENTS:
+=============================
+1. Remove supports carefully
+2. Sand threaded areas smooth
+3. Drill/tap threads to final size:
+   - M10 x 1.5 (pressure relief)
+   - M12 x 1.75 (spring housing)
+   - 1/4" NPT (pressure gauge)
+   - 1/2" NPT (main connections)
+4. Test fit all components
+5. Acetone vapor smooth (optional)
+
+PRINT ORDER RECOMMENDATION:
+==========================
+1. Pressure Gauge Housing (test print)
+2. Flow Control Valve (test threads)
+3. Trigger Valve Assembly (critical precision)
+4. Injection Probe Handle (main component)
+5. Backpack Mount Frame (overnight print)
+6. Main Reservoir Tank (final component)
+
+TROUBLESHOOTING:
+===============
+- Stringing: Reduce temperature by 5°C
+- Poor overhangs: Add more support
+- Warping: Increase bed temperature to 65°C
+- Thread issues: Print 0.1mm oversized, then tap
+- Layer adhesion: Increase nozzle temp by 5°C
