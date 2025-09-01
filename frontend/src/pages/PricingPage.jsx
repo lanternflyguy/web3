@@ -154,7 +154,7 @@ const PricingPage = () => {
                 <Link to="/contact">Get Free Quote</Link>
               </Button>
               <Button variant="outline" className="border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3" asChild>
-                <a href="tel:(631) 727-0489">Call (631) 727-0489</a>
+                <a href="tel:(516) 725-0672">Call (516) 725-0672</a>
               </Button>
             </div>
           </div>
@@ -553,9 +553,9 @@ const PricingPage = () => {
                 <Link to="/contact">Get Free Quote</Link>
               </Button>
               <Button variant="outline" className="border-white text-white hover:bg-white hover:text-red-600 px-8 py-3" asChild>
-                <a href="tel:(631) 727-0489">
+                <a href="tel:(516) 725-0672">
                   <Phone className="h-4 w-4 mr-2" />
-                  Call (631) 727-0489
+                  Call (516) 725-0672
                 </a>
               </Button>
             </div>

@@ -114,7 +114,7 @@ const PamphletPage = () => {
               <div className="text-right">
                 <div className="flex items-center text-xl font-bold mb-2">
                   <Phone className="h-5 w-5 mr-2" />
-                  (631) 727-0489
+                  (516) 725-0672
                 </div>
                 <div className="flex items-center text-sm">
                   <Globe className="h-4 w-4 mr-2" />
@@ -151,7 +151,7 @@ const PamphletPage = () => {
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-red-600 mr-3" />
                   <div>
-                    <div className="font-semibold">(631) 727-0489</div>
+                    <div className="font-semibold">(516) 725-0672</div>
                     <div className="text-sm text-slate-600">24/7 Emergency Service Available</div>
                   </div>
                 </div>
@@ -253,7 +253,7 @@ const PamphletPage = () => {
             <div className="flex justify-center items-center space-x-6">
               <div className="flex items-center text-xl font-bold">
                 <Phone className="h-6 w-6 mr-2" />
-                (631) 727-0489
+                (516) 725-0672
               </div>
               <div className="flex items-center">
                 <Globe className="h-5 w-5 mr-2" />
