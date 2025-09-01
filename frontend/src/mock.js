@@ -77,7 +77,7 @@ export const services = [
     icon: "MessageSquare"
   },
   {
-    id: 8,
+    id: 10,
     title: "Training & Education",
     description: "Workshops and training sessions for property managers and staff on pest awareness and prevention",
     features: ["Staff Training", "Educational Workshops", "Pest Awareness", "Prevention Techniques"],
