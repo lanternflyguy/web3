@@ -50,10 +50,24 @@ export const services = [
   },
   {
     id: 6,
-    title: "Treatment & Prevention Plans",
-    description: "Customized pest management plans with preventive measures and targeted treatments",
-    features: ["Custom Plans", "Preventive Measures", "Targeted Treatments", "Regular Follow-ups"],
-    icon: "Calendar"
+    title: "Organic Residual Application",
+    description: "Professional organic pesticide application for adult spotted lanternfly elimination with residual protection",
+    features: ["OMRI Certified Products", "Adult Elimination Focus", "Residual Protection", "Eco-Friendly Application"],
+    icon: "Droplets"
+  },
+  {
+    id: 7,
+    title: "Soil Treatment System",
+    description: "Advanced soil-based treatment providing systemic protection through plant uptake",
+    features: ["Root Zone Application", "Systemic Protection", "Long-Lasting Results", "Organic Compliance"],
+    icon: "Layers"
+  },
+  {
+    id: 8,
+    title: "Emergency Response",
+    description: "Rapid response for severe infestations and urgent situations",
+    features: ["24/7 Availability", "Rapid Deployment", "Crisis Management", "Same-Day Service"],
+    icon: "Zap"
   },
   {
     id: 7,
