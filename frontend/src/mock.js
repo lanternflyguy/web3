@@ -84,7 +84,7 @@ export const services = [
     icon: "BookOpen"
   },
   {
-    id: 9,
+    id: 11,
     title: "Emergency Response Services",
     description: "Rapid response for urgent pest issues to minimize damage and operational disruption",
     features: ["24/7 Availability", "Rapid Response", "Crisis Management", "Minimal Disruption"],
