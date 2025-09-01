@@ -581,15 +581,15 @@ const BusinessProposalPage = () => {
                   <div className="flex items-center">
                     <Phone className="h-5 w-5 mr-3" />
                     <div>
-                      <div className="font-semibold">Primary: (516) 725-0672</div>
-                      <div className="text-red-200 text-sm">Sales & Emergency Response</div>
+                      <div className="font-semibold">Sales & Services: (516) 725-0672</div>
+                      <div className="text-red-200 text-sm">Emergency Response & Service Requests</div>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <Phone className="h-5 w-5 mr-3" />
                     <div>
-                      <div className="font-semibold">Technical: (516) 930-2508</div>
-                      <div className="text-red-200 text-sm">CTO Direct Line</div>
+                      <div className="font-semibold">Business Info: (631) 930-2508</div>
+                      <div className="text-red-200 text-sm">Technology & Company Questions</div>
                     </div>
                   </div>
                   <div className="flex items-center">
