@@ -23,6 +23,7 @@ const Header = () => {
     { name: 'Reviews', path: '/reviews' },
     { name: 'Out-of-State', path: '/out-of-state' },
     { name: 'Franchise', path: '/franchise' },
+    { name: 'Business Proposal', path: '/business-proposal' },
     { name: 'Pamphlet', path: '/pamphlet' },
     { name: 'Contact', path: '/contact' }
   ];
