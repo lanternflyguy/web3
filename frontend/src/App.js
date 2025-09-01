@@ -49,6 +49,18 @@ function App() {
               <Route path="/pricing" element={<PricingPage />} />
               <Route path="/reproduction" element={<ReproductionPage />} />
               <Route path="/sterilization" element={<SterilizationPage />} />
+              <Route path="/manhasset" element={<ManhassetPage />} />
+              <Route path="/plainview" element={<PlainviewPage />} />
+              <Route path="/oyster-bay" element={<OysterBayPage />} />
+              <Route path="/commack" element={<CommackPage />} />
+              <Route path="/upper-brookville" element={<UpperBrookvillePage />} />
+              <Route path="/laurel-hollow" element={<LaurelHollowPage />} />
+              <Route path="/cold-spring-harbor" element={<ColdSpringHarborPage />} />
+              <Route path="/northport" element={<NorthportPage />} />
+              <Route path="/east-northport" element={<EastNorthportPage />} />
+              <Route path="/roslyn" element={<RoslynPage />} />
+              <Route path="/smithtown" element={<SmithtownPage />} />
+              <Route path="/melville" element={<MelvillePage />} />
             </Routes>
           </main>
           <Footer />
