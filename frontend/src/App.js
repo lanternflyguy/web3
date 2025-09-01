@@ -12,6 +12,7 @@ import ContactPage from "./pages/ContactPage";
 import ReproductionPage from "./pages/ReproductionPage";
 import SterilizationPage from "./pages/SterilizationPage";
 import OrganicTreatmentPage from "./pages/OrganicTreatmentPage";
+import PricingPage from "./pages/PricingPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import GoogleAnalytics from "./components/GoogleAnalytics";
