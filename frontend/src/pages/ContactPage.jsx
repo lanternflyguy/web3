@@ -244,11 +244,24 @@ const ContactPage = () => {
                       <Phone className="h-5 w-5 text-green-600" />
                     </div>
                     <div>
-                      <p className="font-medium text-gray-900">Sales & Service Support</p>
+                      <p className="font-medium text-gray-900">Sales & Service Line</p>
                       <a href={`tel:${companyInfo.phone}`} className="text-green-600 hover:text-green-700 font-medium">
                         {companyInfo.phone}
                       </a>
-                      <p className="text-sm text-gray-600">Available 24/7 for emergencies</p>
+                      <p className="text-sm text-gray-600">Sales, services, and emergency support</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-4">
+                    <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Phone className="h-5 w-5 text-purple-600" />
+                    </div>
+                    <div>
+                      <p className="font-medium text-gray-900">Business & Technology Info</p>
+                      <a href={`tel:${companyInfo.alternatePhone}`} className="text-purple-600 hover:text-purple-700 font-medium">
+                        {companyInfo.alternatePhone}
+                      </a>
+                      <p className="text-sm text-gray-600">Questions about technology, business, or company info</p>
                     </div>
                   </div>
                 </CardContent>
