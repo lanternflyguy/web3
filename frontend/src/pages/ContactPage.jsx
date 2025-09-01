@@ -254,6 +254,12 @@ const ContactPage = () => {
                 </CardContent>
               </Card>
 
+              {/* Business Hours */}
+              <Card className="border-0 shadow-lg">
+                <CardHeader>
+                  <CardTitle className="text-xl">Business Information</CardTitle>
+                </CardHeader>
+                <CardContent>
                   <div className="flex items-start space-x-4">
                     <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
                       <Clock className="h-5 w-5 text-orange-600" />
