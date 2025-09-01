@@ -146,7 +146,7 @@ const LocalSEO = ({ page = 'home' }) => {
         "@type": "Person",
         "name": "Christopher Schenker",
         "jobTitle": "CEO & Co-Inventor",
-        "telephone": "+15169302508",
+        "telephone": "+15167250672",
         "email": "chris@lanternflyguy.com"
       },
       {
