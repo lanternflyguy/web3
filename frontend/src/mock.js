@@ -105,7 +105,7 @@ export const services = [
     icon: "FileText"
   },
   {
-    id: 12,
+    id: 14,
     title: "Municipal Services",
     description: "Large-scale pest management for cities, municipalities, and government facilities",
     features: ["Public Property Treatment", "Park Protection", "Government Contracts", "Community Outreach"],
