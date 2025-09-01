@@ -21,6 +21,8 @@ const Header = () => {
     { name: 'Reproduction Guide', path: '/reproduction' },
     { name: 'BT Gen 2 Technology', path: '/sterilization' },
     { name: 'Reviews', path: '/reviews' },
+    { name: 'Out-of-State', path: '/out-of-state' },
+    { name: 'Franchise', path: '/franchise' },
     { name: 'Pamphlet', path: '/pamphlet' },
     { name: 'Contact', path: '/contact' }
   ];
