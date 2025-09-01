@@ -227,27 +227,30 @@ const ContactPage = () => {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="flex items-start space-x-4">
+                    <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Mail className="h-5 w-5 text-blue-600" />
+                    </div>
+                    <div>
+                      <p className="font-medium text-gray-900">📧 PRIMARY - Appointments & Bookings</p>
+                      <a href={`mailto:${companyInfo.email}`} className="text-blue-600 hover:text-blue-700 font-semibold text-lg">
+                        {companyInfo.email}
+                      </a>
+                      <p className="text-sm text-gray-600">Best way to book appointments and services</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-4">
                     <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
                       <Phone className="h-5 w-5 text-green-600" />
                     </div>
                     <div>
-                      <p className="font-medium text-gray-900">Primary Line</p>
-                      <a href={`tel:${companyInfo.phone}`} className="text-green-600 hover:text-green-700 font-semibold text-lg">
+                      <p className="font-medium text-gray-900">Sales & Service Support</p>
+                      <a href={`tel:${companyInfo.phone}`} className="text-green-600 hover:text-green-700 font-medium">
                         {companyInfo.phone}
                       </a>
                       <p className="text-sm text-gray-600">Available 24/7 for emergencies</p>
                     </div>
                   </div>
-
-                  <div className="flex items-start space-x-4">
-                    <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Mail className="h-5 w-5 text-blue-600" />
-                    </div>
-                    <div>
-                      <p className="font-medium text-gray-900">Primary Email</p>
-                      <a href={`mailto:${companyInfo.email}`} className="text-blue-600 hover:text-blue-700 font-medium">
-                        {companyInfo.email}
-                      </a>
                       <p className="text-sm text-gray-600">Business inquiries & assessments</p>
                     </div>
                   </div>
