@@ -98,7 +98,7 @@ export const services = [
     icon: "Leaf"
   },
   {
-    id: 11,
+    id: 13,
     title: "Reporting & Documentation",
     description: "Detailed reporting and documentation of pest management activities and regulatory compliance",
     features: ["Detailed Reports", "Regulatory Documentation", "Activity Tracking", "Compliance Records"],
