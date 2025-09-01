@@ -91,7 +91,7 @@ export const services = [
     icon: "Zap"
   },
   {
-    id: 10,
+    id: 12,
     title: "Sustainability Initiatives",
     description: "Eco-friendly pest management solutions aligned with sustainable and environmentally conscious practices",
     features: ["Eco-Friendly Solutions", "Sustainable Practices", "Environmental Compliance", "Green Alternatives"],
