@@ -70,7 +70,7 @@ export const services = [
     icon: "Zap"
   },
   {
-    id: 7,
+    id: 9,
     title: "Consultation Services",
     description: "Professional advice on pest management, tree preservation, and regulatory compliance",
     features: ["Expert Advice", "Best Practices", "Regulatory Compliance", "Property Management Support"],
