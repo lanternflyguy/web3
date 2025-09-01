@@ -28,6 +28,7 @@ import MelvillePage from "./pages/MelvillePage";
 import PamphletPage from "./pages/PamphletPage";
 import OutOfStatePage from "./pages/OutOfStatePage";
 import FranchisePage from "./pages/FranchisePage";
+import BusinessProposalPage from "./pages/BusinessProposalPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import GoogleAnalytics from "./components/GoogleAnalytics";
