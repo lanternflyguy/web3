@@ -65,6 +65,8 @@ function App() {
               <Route path="/smithtown" element={<SmithtownPage />} />
               <Route path="/melville" element={<MelvillePage />} />
               <Route path="/pamphlet" element={<PamphletPage />} />
+              <Route path="/out-of-state" element={<OutOfStatePage />} />
+              <Route path="/franchise" element={<FranchisePage />} />
             </Routes>
           </main>
           <Footer />
