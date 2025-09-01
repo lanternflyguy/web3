@@ -546,7 +546,7 @@ const FranchisePage = () => {
               <Button variant="outline" className="border-white text-white hover:bg-white hover:text-red-600 px-8 py-3" asChild>
                 <a href="tel:(631) 727-0489">
                   <Phone className="h-4 w-4 mr-2" />
-                  Franchise Hotline: (631) 727-0489
+                  Franchise Hotline: (516) 725-0672
                 </a>
               </Button>
             </div>
