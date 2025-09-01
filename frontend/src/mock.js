@@ -305,7 +305,7 @@ export const teamMembers = [
   {
     name: "Joseph Cusick", 
     title: "CTO & Co-Inventor",
-    phone: "(516) 725-0672",
+    phone: "(631) 930-2508",
     email: "joecusick@thelanternflyguy.com",
     specialization: "Technology Development & Innovation",
     bio: "Technical co-founder focused on developing cutting-edge spotted lanternfly elimination technologies."
