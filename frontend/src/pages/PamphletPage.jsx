@@ -149,24 +149,17 @@ const PamphletPage = () => {
               <h2 className="text-2xl font-bold text-red-600 mb-4">Contact Information</h2>
               <div className="space-y-3">
                 <div className="flex items-center">
+                  <Mail className="h-5 w-5 text-red-600 mr-3" />
+                  <div>
+                    <div className="font-semibold">chris@lanternflyguy.com</div>
+                    <div className="text-sm text-slate-600">📧 PRIMARY - Appointments & Bookings</div>
+                  </div>
+                </div>
+                <div className="flex items-center">
                   <Phone className="h-5 w-5 text-red-600 mr-3" />
                   <div>
                     <div className="font-semibold">(516) 725-0672</div>
-                    <div className="text-sm text-slate-600">24/7 Emergency Service Available</div>
-                  </div>
-                </div>
-                <div className="flex items-center">
-                  <Mail className="h-5 w-5 text-red-600 mr-3" />
-                  <div>
-                    <div className="font-semibold">info@thelanternflyguys.com</div>
-                    <div className="text-sm text-slate-600">General Inquiries</div>
-                  </div>
-                </div>
-                <div className="flex items-center">
-                  <Mail className="h-5 w-5 text-red-600 mr-3" />
-                  <div>
-                    <div className="font-semibold">commercial@thelanternflyguys.com</div>
-                    <div className="text-sm text-slate-600">Commercial Services</div>
+                    <div className="text-sm text-slate-600">Sales & Service Support</div>
                   </div>
                 </div>
                 <div className="flex items-center">
