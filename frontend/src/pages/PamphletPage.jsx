@@ -248,7 +248,11 @@ const PamphletPage = () => {
             <h2 className="text-2xl font-bold mb-2">Don't Let Spotted Lanternflies Destroy Your Property!</h2>
             <p className="text-red-100 mb-4">Call today for your free assessment and 20% new customer discount</p>
             <div className="flex justify-center items-center space-x-6">
-              <div className="flex items-center text-xl font-bold">
+              <div className="flex items-center text-lg font-bold">
+                <Mail className="h-5 w-5 mr-2" />
+                chris@lanternflyguy.com
+              </div>
+              <div className="flex items-center text-lg font-bold">
                 <Phone className="h-6 w-6 mr-2" />
                 (516) 725-0672
               </div>
@@ -257,6 +261,7 @@ const PamphletPage = () => {
                 www.thelanternflyguys.com
               </div>
             </div>
+            <p className="text-xs text-red-200 mt-2">📧 Email chris@lanternflyguy.com for appointments and bookings</p>
             <p className="text-xs text-red-200 mt-4">Licensed • Insured • EPA Registered • OMRI Certified</p>
           </div>
         </div>
