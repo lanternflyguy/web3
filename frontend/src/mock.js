@@ -3,7 +3,7 @@
 export const companyInfo = {
   name: "The Lantern Fly Guys",
   tagline: "Premier Spotted Lanternfly Elimination Specialists",
-  phone: "(516) 725-0672",
+  phone: "(516) 930-2508",
   alternatePhone: "(516) 930-2508",
   email: "chris@lanternflyguy.com",
   alternateEmail: "joecusick@thelanternflyguy.com",
