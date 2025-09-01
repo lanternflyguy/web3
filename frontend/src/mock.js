@@ -111,9 +111,9 @@ export const technologyFeatures = [
     benefits: ["Invisible protection", "Natural approach", "Long-lasting results", "Heritage tree preservation"]
   },
   {
-    title: "Root Injection Protection",
-    description: "Advanced root injection system for heritage trees and commercial properties",
-    benefits: ["Minimal environmental impact", "Targeted treatment", "Tree health improvement", "Professional application"]
+    title: "Organic Soil Treatment System",
+    description: "Advanced soil-based treatment system providing long-lasting protection through root uptake",
+    benefits: ["OMRI organic compliance", "Season-long protection", "Environmental safety", "Sustained effectiveness"]
   }
 ];
 
