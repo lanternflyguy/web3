@@ -129,7 +129,7 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
-              { number: "10,000+", label: "Properties Protected", icon: Shield },
+              { number: "1,000+", label: "Properties Protected & Counting", icon: Shield },
               { number: "85-90%", label: "Elimination Success Rate", icon: Target },
               { number: "24/7", label: "Emergency Response", icon: Clock },
               { number: "100%", label: "Organic Certified", icon: Leaf }
