@@ -70,6 +70,7 @@ function App() {
               <Route path="/out-of-state" element={<OutOfStatePage />} />
               <Route path="/franchise" element={<FranchisePage />} />
               <Route path="/business-proposal" element={<BusinessProposalPage />} />
+              <Route path="/residual-application" element={<ResidualApplicationPage />} />
             </Routes>
           </main>
           <Footer />
