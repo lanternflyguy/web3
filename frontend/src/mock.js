@@ -364,7 +364,7 @@ export const teamMembers = [
 ];
 
 export const statsData = [
-  { number: "10,000+", label: "Properties Protected", icon: "Shield" },
+  { number: "1,000+", label: "Properties Protected & Counting", icon: "Shield" },
   { number: "85-90%", label: "Elimination Rate", icon: "Target" },
   { number: "24/7", label: "Emergency Response", icon: "Clock" },
   { number: "100%", label: "Organic Compliance", icon: "Leaf" }
