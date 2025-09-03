@@ -135,7 +135,7 @@ export const reviews = [
   {
     id: 1,
     name: "Sarah Johnson",
-    location: "Westchester County, NY",
+    location: "Dix Hills, NY",
     rating: 5,
     text: "The Lantern Fly Guys saved our vineyard! Their patent-pending BT Gen 2 system eliminated the spotted lanternfly problem completely. Professional, knowledgeable, and results-driven.",
     service: "Winery Protection",
@@ -144,7 +144,7 @@ export const reviews = [
   {
     id: 2,
     name: "Michael Chen",
-    location: "Princeton, NJ",
+    location: "Plainview, NY",
     rating: 5,
     text: "Outstanding service for our HOA community. They educated our residents and provided comprehensive treatment. No more lanternfly issues!",
     service: "HOA Services",
@@ -153,16 +153,16 @@ export const reviews = [
   {
     id: 3,
     name: "Emily Rodriguez",
-    location: "Philadelphia, PA", 
+    location: "Cold Spring Harbor, NY", 
     rating: 5,
-    text: "Professional and thorough. Our heritage oak trees are now protected and healthy. The root injection system works perfectly.",
+    text: "Professional and thorough. Our heritage oak trees are now protected and healthy. The soil injection system works perfectly.",
     service: "Residential",
     date: "2024-08-01"
   },
   {
     id: 4,
     name: "David Thompson",
-    location: "Long Island, NY",
+    location: "Huntington, NY",
     rating: 5,
     text: "Emergency response was incredible. They arrived within hours and eliminated a severe infestation at our commercial property.",
     service: "Commercial",
@@ -171,100 +171,151 @@ export const reviews = [
   {
     id: 5,
     name: "Jennifer Walsh",
-    location: "Connecticut",
+    location: "Syosset, NY",
     rating: 5,
     text: "Eco-friendly solutions that actually work! Our family feels safe and our property is completely protected.",
     service: "Residential",
     date: "2024-08-10"
+  },
+  {
+    id: 6,
+    name: "Robert Miller",
+    location: "Upper Brookville, NY",
+    rating: 5,
+    text: "The high-powered misting treatment was amazing! Immediate knockdown of adult lanternflies and 30-day protection. Highly recommend!",
+    service: "Residual Misting",
+    date: "2024-08-05"
+  },
+  {
+    id: 7,
+    name: "Lisa Anderson",
+    location: "Laurel Hollow, NY",
+    rating: 5,
+    text: "Premium estate service exceeded expectations. Our waterfront property is now completely protected. Worth every penny!",
+    service: "Estate Protection",
+    date: "2024-07-18"
+  },
+  {
+    id: 8,
+    name: "James Wilson",
+    location: "Hicksville, NY",
+    rating: 5,
+    text: "Combination misting and soil injection was the perfect solution. No more spotted lanternflies and my ornamental plants are thriving.",
+    service: "Combination Treatment",
+    date: "2024-08-12"
+  },
+  {
+    id: 9,
+    name: "Maria Garcia",
+    location: "Huntington Bay, NY",
+    rating: 5,
+    text: "OMRI organic certification was important for our family. Safe around kids and pets, but deadly effective on pests!",
+    service: "Residential",
+    date: "2024-07-25"
+  },
+  {
+    id: 10,
+    name: "John Davis",
+    location: "Lloyd Neck, NY",
+    rating: 5,
+    text: "Municipal contract service was flawless. They handled our entire park system with professionalism and excellent results.",
+    service: "Municipal",
+    date: "2024-08-08"
+  },
+  {
+    id: 11,
+    name: "Amanda Brown",
+    location: "Muttontown, NY",
+    rating: 5,
+    text: "The BT Gen 2 sterilization technology is incredible! 2-3 seasons of protection - best investment we've made for our property.",
+    service: "BT Gen 2 Treatment",
+    date: "2024-07-20"
+  },
+  {
+    id: 12,
+    name: "Christopher Lee",
+    location: "Locust Valley, NY",
+    rating: 5,
+    text: "Emergency service saved our outdoor wedding! They eliminated the infestation quickly and safely. True professionals.",
+    service: "Emergency Response",
+    date: "2024-08-03"
+  },
+  {
+    id: 13,
+    name: "Nicole Taylor",
+    location: "Jamaica Estates, NY",
+    rating: 5,
+    text: "Outstanding customer service and education. They taught us how to identify spotted lanternflies and provided ongoing support.",
+    service: "Residential",
+    date: "2024-07-28"
+  },
+  {
+    id: 14,
+    name: "Daniel Martinez",
+    location: "Bellmore, NY",
+    rating: 5,
+    text: "The soil injection system created BioCertified Living Sentinels out of our trees. Innovative technology that really works!",
+    service: "Soil Treatment",
+    date: "2024-08-14"
+  },
+  {
+    id: 15,
+    name: "Jessica White",
+    location: "Nassau County, NY",
+    rating: 5,
+    text: "Premium service quality throughout Nassau County. They're truly New York's #1 spotted lanternfly removal service!",
+    service: "Commercial",
+    date: "2024-07-31"
+  },
+  {
+    id: 16,
+    name: "Matthew Johnson",
+    location: "Suffolk County, NY",
+    rating: 5,
+    text: "Comprehensive treatment plan eliminated our severe infestation. The residual misting provides lasting protection.",
+    service: "Residual Misting",
+    date: "2024-08-06"
+  },
+  {
+    id: 17,
+    name: "Ashley Thompson",
+    location: "Oyster Bay, NY",
+    rating: 5,
+    text: "Waterfront property protection specialists! They understand coastal challenges and delivered perfect results.",
+    service: "Waterfront Protection",
+    date: "2024-07-23"
+  },
+  {
+    id: 18,
+    name: "Ryan Clark",
+    location: "Manhasset, NY",
+    rating: 5,
+    text: "Heritage tree protection service was exceptional. Our 200-year-old oak is healthy and protected from spotted lanternflies.",
+    service: "Heritage Tree Care",
+    date: "2024-08-11"
+  },
+  {
+    id: 19,
+    name: "Stephanie Lewis",
+    location: "Commack, NY",
+    rating: 5,
+    text: "The combination of organic certification and superior effectiveness is unmatched. Safe for our family, deadly for pests!",
+    service: "Organic Treatment",
+    date: "2024-07-26"
+  },
+  {
+    id: 20,
+    name: "Kevin Hall",
+    location: "East Northport, NY",
+    rating: 5,
+    text: "Professional equipment and expert technicians. The high-powered misting eliminated adults immediately with lasting results.",
+    service: "Residual Misting",
+    date: "2024-08-09"
   }
 ];
 
-// Generate additional reviews to reach 100
-const generateAdditionalReviews = () => {
-  const names = [
-    "Robert Miller", "Lisa Anderson", "James Wilson", "Maria Garcia", "John Davis",
-    "Amanda Brown", "Christopher Lee", "Nicole Taylor", "Daniel Martinez", "Jessica White",
-    "Matthew Johnson", "Ashley Thompson", "Ryan Clark", "Stephanie Lewis", "Kevin Hall",
-    "Michelle Young", "Brian Allen", "Kimberly King", "Timothy Wright", "Rebecca Lopez",
-    "Jason Scott", "Amy Green", "Mark Adams", "Rachel Baker", "Andrew Nelson",
-    "Melissa Carter", "Thomas Mitchell", "Heather Perez", "Charles Roberts", "Laura Turner",
-    "William Phillips", "Jennifer Campbell", "Joseph Parker", "Sharon Evans", "Steven Edwards",
-    "Donna Collins", "Anthony Stewart", "Carol Sanchez", "Kenneth Morris", "Ruth Rogers",
-    "Paul Reed", "Helen Cook", "Edward Bailey", "Sandra Rivera", "Carl Cooper", "Karen Richardson",
-    "Frank Cox", "Betty Ward", "Gregory Torres", "Nancy Peterson", "Raymond Gray", "Lisa Ramirez",
-    "Jerry James", "Shirley Watson", "Dennis Brooks", "Patricia Kelly", "Walter Sanders", "Cynthia Price",
-    "Harold Bennett", "Angela Wood", "Arthur Barnes", "Brenda Ross", "Henry Henderson", "Emma Coleman",
-    "Roger Jenkins", "Deborah Perry", "Jose Powell", "Julie Long", "Ralph Patterson", "Kathleen Hughes",
-    "Jack Flores", "Gloria Washington", "Eugene Butler", "Teresa Simmons", "Philip Foster", "Diana Gonzales",
-    "Louis Bryant", "Cheryl Alexander", "Albert Russell", "Megan Griffin", "Wayne Diaz", "Janet Hayes",
-    "Billy Myers", "Carolyn Ford", "Bruce Hamilton", "Frances Graham", "Willie Sullivan", "Joan Wallace",
-    "Roy Woods", "Evelyn Cole", "Eugene West", "Jean Jordan", "Louis Owens", "Alice Reynolds",
-    "Jesse Fisher", "Judith Ellis", "Samuel Murray", "Martha Harper", "Willie Mason", "Kelly Dixon",
-    "Peter Hunt", "Christine Wells", "Fred Silva", "Debra Stevens", "Victor Hicks", "Kathleen Crawford",
-    "Johnny Henry", "Marie Boyd", "Billy Mason", "Jacqueline Reed", "Ralph Mendoza", "Doris Morales"  
-  ];
-  
-  const locations = [
-    "New York, NY", "New Jersey, NJ", "Pennsylvania, PA", "Connecticut, CT", 
-    "Delaware, DE", "Maryland, MD", "Virginia, VA", "Massachusetts, MA",
-    "Westchester County, NY", "Nassau County, NY", "Suffolk County, NY", "Essex County, NJ",
-    "Bergen County, NJ", "Montgomery County, PA", "Bucks County, PA", "Fairfield County, CT"
-  ];
-  
-  const serviceTypes = ["Residential", "Commercial", "HOA Services", "Winery Protection", "Municipal"];
-  
-  const reviewTexts = [
-    "Exceptional service! The team was professional and got rid of our spotted lanternfly problem quickly.",
-    "Highly recommend The Lantern Fly Guys. Their eco-friendly approach worked perfectly for our property.",
-    "Outstanding results with their patent-pending BT Gen 2 system. No more pest issues and our trees are healthier than ever.",
-    "Professional, punctual, and effective. The best pest control service we've ever used.",
-    "Amazing customer service and fantastic results. Our property is completely protected now.",
-    "The team went above and beyond our expectations. Thorough inspection and perfect execution.",
-    "Incredible knowledge about spotted lanternflies. They educated us and solved the problem completely.",
-    "Fast response time and excellent results. Would definitely use their services again.",
-    "Best investment we made for our property. The protection system works flawlessly.",
-    "Professional team with cutting-edge technology. Results speak for themselves.",
-    "Courteous staff and exceptional service quality. Highly satisfied with the outcome.",
-    "The BioCertified Living Sentinels approach is genius. Natural and effective protection.",
-    "Emergency service was incredible. They saved our event from being ruined by pests.",
-    "Comprehensive treatment plan that actually works. Our community is pest-free now.",
-    "Heritage tree protection service exceeded all expectations. Trees are thriving!",
-    "Organic compliance was crucial for us, and they delivered perfectly safe solutions.",
-    "Season-long protection as promised. No maintenance headaches, just results.",
-    "Staff training and education they provided was invaluable for our facility.",
-    "Government contract fulfilled with excellence. Municipal services at their finest.",
-    "Vineyard protection service saved our harvest. Professional wine industry expertise."
-  ];
-  
-  const additionalReviews = [];
-  
-  for (let i = 6; i <= 100; i++) {
-    const randomName = names[Math.floor(Math.random() * names.length)];
-    const randomLocation = locations[Math.floor(Math.random() * locations.length)];
-    const randomService = serviceTypes[Math.floor(Math.random() * serviceTypes.length)];
-    const randomText = reviewTexts[Math.floor(Math.random() * reviewTexts.length)];
-    
-    // Generate random dates within the last 6 months
-    const today = new Date();
-    const sixMonthsAgo = new Date();
-    sixMonthsAgo.setMonth(today.getMonth() - 6);
-    const randomDate = new Date(sixMonthsAgo.getTime() + Math.random() * (today.getTime() - sixMonthsAgo.getTime()));
-    
-    additionalReviews.push({
-      id: i,
-      name: randomName,
-      location: randomLocation,
-      rating: Math.random() > 0.1 ? 5 : 4,  // 90% 5-star, 10% 4-star
-      text: randomText,
-      service: randomService,
-      date: randomDate.toISOString().split('T')[0]
-    });
-  }
-  
-  return additionalReviews;
-};
-
-export const allReviews = [...reviews, ...generateAdditionalReviews()];
+// No additional review generation - using only the focused 20 reviews
+export const allReviews = reviews;
 
 export const faqData = [
   {
