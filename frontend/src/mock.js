@@ -272,8 +272,8 @@ export const reviews = [
     name: "Matthew Johnson",
     location: "Suffolk County, NY",
     rating: 5,
-    text: "Comprehensive treatment plan eliminated our severe infestation. The residual misting provides lasting protection.",
-    service: "Residual Misting",
+    text: "Comprehensive treatment plan eliminated our severe infestation. The multi-step approach provides lasting protection.",
+    service: "Comprehensive Treatment",
     date: "2024-08-06"
   },
   {
