@@ -18,7 +18,6 @@ const Header = () => {
     { name: 'HOA Solutions', path: '/hoa' },
     { name: 'Wineries', path: '/wineries' },
     { name: 'Municipal', path: '/municipal' },
-    { name: 'Residual Misting', path: '/residual-application' },
     { name: 'Reproduction Guide', path: '/reproduction' },
     { name: 'BT Gen 2 Technology', path: '/sterilization' },
     { name: 'Reviews', path: '/reviews' },
