@@ -182,8 +182,8 @@ export const reviews = [
     name: "Robert Miller",
     location: "Upper Brookville, NY",
     rating: 5,
-    text: "The high-powered misting treatment was amazing! Immediate knockdown of adult lanternflies and 30-day protection. Highly recommend!",
-    service: "Residual Misting",
+    text: "The comprehensive treatment approach was amazing! Complete elimination of adult lanternflies and long-term protection. Highly recommend!",
+    service: "Comprehensive Treatment",
     date: "2024-08-05"
   },
   {
