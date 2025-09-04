@@ -67,7 +67,6 @@ function App() {
               <Route path="/pamphlet" element={<PamphletPage />} />
               <Route path="/out-of-state" element={<OutOfStatePage />} />
               <Route path="/franchise" element={<FranchisePage />} />
-              <Route path="/business-proposal" element={<BusinessProposalPage />} />
             </Routes>
           </main>
           <Footer />
