@@ -308,8 +308,8 @@ export const reviews = [
     name: "Kevin Hall",
     location: "East Northport, NY",
     rating: 5,
-    text: "Professional equipment and expert technicians. The high-powered misting eliminated adults immediately with lasting results.",
-    service: "Residual Misting",
+    text: "Professional equipment and expert technicians. The comprehensive treatment eliminated adults immediately with lasting results.",
+    service: "Professional Treatment",
     date: "2024-08-09"
   }
 ];
