@@ -27,7 +27,7 @@ const PamphletPage = () => {
     'HOA Community Services',
     'Winery & Vineyard Protection',
     'Municipal & Government Contracts',
-    'Patent-Pending BT Gen 2 Sterilization',
+    'PPMP (Preventative Pest Management Procedure) Sterilization',
     'Organic OMRI Certified Treatments',
     'Soil Treatment Systems',
     'Emergency 24/7 Response',
@@ -143,7 +143,7 @@ const PamphletPage = () => {
               </p>
               <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-4">
                 <p className="text-yellow-800 font-semibold">
-                  🏆 Patent-Pending BT Gen 2 Technology - The most advanced spotted lanternfly control available
+                  🏆 PPMP (Preventative Pest Management Procedure) Technology - The most advanced spotted lanternfly control available
                 </p>
               </div>
             </div>

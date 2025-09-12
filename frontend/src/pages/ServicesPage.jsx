@@ -121,7 +121,7 @@ const ServicesPage = () => {
               },
               {
                 step: 3,
-                title: "Patent-Pending BT Gen 2 Application",
+                title: "PPMP (Preventative Pest Management Procedure) Application",
                 description: "Deploy our patent-pending elimination system with precision",
                 icon: "🎯"
               },

@@ -114,7 +114,7 @@ const NorthportPage = () => {
                 <div className="flex items-start space-x-4">
                   <CheckCircle className="h-6 w-6 text-green-400 mt-1 flex-shrink-0" />
                   <div>
-                    <h3 className="text-xl font-semibold text-white mb-2">Patent-Pending BT Gen 2</h3>
+                    <h3 className="text-xl font-semibold text-white mb-2">PPMP (Preventative Pest Management Procedure)</h3>
                     <p className="text-slate-300">Advanced sterilization technology providing 2-3 seasons of protection for Northport properties.</p>
                   </div>
                 </div>

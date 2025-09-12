@@ -103,7 +103,7 @@ const PricingPage = () => {
 
   const specializedTreatments = [
     {
-      name: "Patent-Pending BT Gen 2 Sterilization",
+      name: "PPMP (Preventative Pest Management Procedure) Sterilization",
       residential: "+$200 - $400 premium",
       commercial: "+$400 - $800 premium",
       large: "+$800 - $1,500 premium",
