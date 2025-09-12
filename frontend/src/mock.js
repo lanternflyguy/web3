@@ -3,8 +3,8 @@
 export const companyInfo = {
   name: "The Lantern Fly Guys",
   tagline: "Premier Spotted Lanternfly Elimination Specialists",
-  phone: "(516) 725-0672",
-  alternatePhone: "(631) 930-2508",
+  phone: "(516) 870-8356",
+  alternatePhone: "(516) 870-8356",
   email: "chris@lanternflyguy.com",
   alternateEmail: "joecusick@thelanternflyguy.com",
   address: "228 Park Avenue South, New York, NY 11003",
