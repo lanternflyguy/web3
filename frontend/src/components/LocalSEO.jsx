@@ -26,7 +26,7 @@ const LocalSEO = ({ page = 'home' }) => {
     },
     contact: {
       title: "Contact Lanternfly Experts Nassau County, Suffolk County | Free Assessment Dix Hills NY",
-      description: "Get free spotted lanternfly assessment in Nassau County, Suffolk County & Dix Hills NY. Call (516) 725-0672 for immediate response. Serving all of Long Island.",
+      description: "Get free spotted lanternfly assessment in Nassau County, Suffolk County & Dix Hills NY. Call (516) 870-8356 for immediate response. Serving all of Long Island.",
       keywords: "lanternfly removal Nassau County phone, pest control Suffolk County contact, Dix Hills exterminator, Long Island pest control quote, Nassau County free assessment",
       canonicalUrl: "https://thelanternflyguy.com/contact"
     }
@@ -176,7 +176,7 @@ const LocalSEO = ({ page = 'home' }) => {
       
       {/* Business Meta Tags */}
       <meta name="business.name" content="The Lantern Fly Guys" />
-      <meta name="business.phone" content="(516) 725-0672" />
+      <meta name="business.phone" content="(516) 870-8356" />
       <meta name="business.address" content="228 Park Avenue South, New York, NY 11003" />
       
       {/* Open Graph Local */}

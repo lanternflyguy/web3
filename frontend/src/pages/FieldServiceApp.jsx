@@ -194,7 +194,7 @@ const FieldServiceApp = () => {
           name: "The Lantern Fly Guys Inc",
           license: "NYS-PEST-2024-001",
           address: "228 Park Avenue South, New York, NY 11003",
-          phone: "(516) 725-0672"
+          phone: "(516) 870-8356"
         }
       };
 
