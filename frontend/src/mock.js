@@ -115,8 +115,8 @@ export const services = [
 
 export const technologyFeatures = [
   {
-    title: "Patent-Pending BT Gen 2 Enhanced Management System",
-    description: "Our patent-pending elimination technology achieves 85-90% spotted lanternfly elimination",
+    title: "PPMP Enhanced Management System",
+    description: "Our PPMP (Preventative Pest Management Procedure) achieves 85-90% spotted lanternfly elimination through host solution based eradication management",
     benefits: ["Season-long protection", "Eco-friendly approach", "OMRI organic compliance", "Proven effectiveness"]
   },
   {
