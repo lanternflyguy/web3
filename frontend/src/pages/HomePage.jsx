@@ -59,7 +59,7 @@ const HomePage = () => {
                   </span>
                 </h1>
                 <p className="text-xl text-slate-300 leading-relaxed max-w-2xl">
-                  Advanced patent-pending BT Gen 2 technology achieves 85-90% elimination with season-long protection. 
+                  Advanced patent-pending PPMP technology achieves 85-90% elimination with season-long protection. 
                   OMRI organic compliant and completely safe for families and pets. Trusted by thousands of satisfied customers.
                 </p>
               </div>

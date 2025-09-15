@@ -39,7 +39,7 @@ const PamphletPage = () => {
   const competitiveAdvantages = [
     {
       title: 'Patent-Pending Technology',
-      description: 'Our exclusive BT Gen 2 sterilization technology provides 2-3 seasons of protection, far superior to standard treatments.'
+      description: 'Our exclusive PPMP sterilization technology provides 2-3 seasons of protection, far superior to standard treatments.'
     },
     {
       title: 'Local Expertise',
@@ -69,7 +69,7 @@ const PamphletPage = () => {
     { service: 'Residential Premium (1/2-1 acre)', price: '$650-$950' },
     { service: 'Commercial Small (up to 5,000 sq ft)', price: '$500-$800' },
     { service: 'HOA Communities (10-25 homes)', price: '$2,500-$4,000' },
-    { service: 'BT Gen 2 Sterilization Premium', price: '+$200-$1,500' },
+    { service: 'PPMP Sterilization Premium', price: '+$200-$1,500' },
     { service: 'Emergency Service', price: '+50-100%' },
     { service: 'New Customer Discount', price: '20% OFF' }
   ];
@@ -138,7 +138,7 @@ const PamphletPage = () => {
               </h2>
               <p className="text-slate-700 mb-4">
                 The Lantern Fly Guys Inc is Nassau and Suffolk County's premier spotted lanternfly control specialist. 
-                We protect your property with our exclusive patent-pending BT Gen 2 sterilization technology, 
+                We protect your property with our exclusive patent-pending PPMP sterilization technology, 
                 providing superior results that last 2-3 seasons.
               </p>
               <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-4">

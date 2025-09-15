@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 
 const SEOHead = ({ 
   title = "The Lantern Fly Guys - Professional Spotted Lanternfly Elimination | New York, New Jersey, Pennsylvania",
-  description = "Professional spotted lanternfly removal services in NY, NJ, PA. Patent-pending BT Gen 2 technology with 85-90% elimination rate. Free assessment. Call (516) 870-8356",
+  description = "Professional spotted lanternfly removal services in NY, NJ, PA. Patent-pending PPMP technology with 85-90% elimination rate. Free assessment. Call (516) 870-8356",
   keywords = "spotted lanternfly removal, pest control, tree preservation, lanternfly elimination, New York pest control, New Jersey pest control, Pennsylvania pest control, commercial pest management, residential pest control, HOA pest services, winery pest control, municipal pest management",
   canonicalUrl = "https://thelanternflyguy.com",
   ogImage = "https://thelanternflyguy.com/og-image.jpg",
@@ -17,7 +17,7 @@ const SEOHead = ({
         "@id": "https://thelanternflyguy.com/#business",
         "name": "The Lantern Fly Guys",
         "alternateName": "The Lantern Fly Guy Inc",
-        "description": "Professional spotted lanternfly elimination specialists serving New York, New Jersey, and Pennsylvania with patent-pending BT Gen 2 technology.",
+        "description": "Professional spotted lanternfly elimination specialists serving New York, New Jersey, and Pennsylvania with patent-pending PPMP technology.",
         "url": "https://thelanternflyguy.com",
         "telephone": "(516) 870-8356",
         "email": "chris@lanternflyguy.com",
@@ -86,7 +86,7 @@ const SEOHead = ({
         "@type": "Service",
         "@id": "https://thelanternflyguy.com/#service",
         "name": "Spotted Lanternfly Elimination",
-        "description": "Professional spotted lanternfly removal using patent-pending BT Gen 2 technology with 85-90% elimination rate.",
+        "description": "Professional spotted lanternfly removal using patent-pending PPMP technology with 85-90% elimination rate.",
         "provider": {
           "@id": "https://thelanternflyguy.com/#business"
         },

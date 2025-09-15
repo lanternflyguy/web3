@@ -29,7 +29,7 @@ const ManhassetPage = () => {
             </h1>
             <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
               Professional spotted lanternfly elimination services for Manhasset residents and businesses. 
-              Protect your property with our patent-pending BT Gen 2 sterilization technology.
+              Protect your property with our patent-pending PPMP sterilization technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3" asChild>
@@ -150,7 +150,7 @@ const ManhassetPage = () => {
                 </p>
                 <h3 className="text-2xl font-semibold text-yellow-400 mb-4">Advanced Technology</h3>
                 <p className="text-slate-300">
-                  Our patent-pending BT Gen 2 sterilization technology represents the cutting edge of spotted lanternfly control, 
+                  Our patent-pending PPMP sterilization technology represents the cutting edge of spotted lanternfly control, 
                   offering superior protection for Manhasset properties.
                 </p>
               </div>

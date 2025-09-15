@@ -29,7 +29,7 @@ const UpperBrookvillePage = () => {
             </h1>
             <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
               Exclusive spotted lanternfly elimination services for Upper Brookville estates and luxury properties. 
-              Protect your prestigious landscape with our patent-pending BT Gen 2 sterilization technology.
+              Protect your prestigious landscape with our patent-pending PPMP sterilization technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3" asChild>
@@ -150,7 +150,7 @@ const UpperBrookvillePage = () => {
                 </p>
                 <h3 className="text-2xl font-semibold text-yellow-400 mb-4">Premium Technology</h3>
                 <p className="text-slate-300">
-                  Our patent-pending BT Gen 2 sterilization technology represents the pinnacle of spotted lanternfly control, 
+                  Our patent-pending PPMP sterilization technology represents the pinnacle of spotted lanternfly control, 
                   perfectly suited for Upper Brookville's most valuable properties.
                 </p>
               </div>
@@ -197,7 +197,7 @@ const UpperBrookvillePage = () => {
               <Card className="bg-gradient-to-br from-red-600 to-red-700 border-red-500 text-white">
                 <CardHeader>
                   <Shield className="h-8 w-8 mx-auto mb-4" />
-                  <CardTitle className="text-2xl font-bold text-center">BT Gen 2 Premium</CardTitle>
+                  <CardTitle className="text-2xl font-bold text-center">PPMP Premium</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-red-100">

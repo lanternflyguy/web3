@@ -93,7 +93,7 @@ const OutOfStatePage = () => {
             </h1>
             <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
               Professional spotted lanternfly control for municipalities and wineries outside New York. 
-              We deploy our expert teams and patent-pending BT Gen 2 technology wherever the crisis demands.
+              We deploy our expert teams and patent-pending PPMP technology wherever the crisis demands.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3" asChild>
@@ -279,7 +279,7 @@ const OutOfStatePage = () => {
                     <Shield className="h-6 w-6 text-green-400 mt-1 flex-shrink-0" />
                     <div>
                       <h3 className="text-xl font-semibold text-white mb-2">Season-Long Protection</h3>
-                      <p className="text-slate-300">Our BT Gen 2 sterilization technology provides 2-3 seasons of protection, covering multiple harvest cycles.</p>
+                      <p className="text-slate-300">Our PPMP sterilization technology provides 2-3 seasons of protection, covering multiple harvest cycles.</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">

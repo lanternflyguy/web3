@@ -19,7 +19,7 @@ const Header = () => {
     { name: 'Wineries', path: '/wineries' },
     { name: 'Municipal', path: '/municipal' },
     { name: 'Reproduction Guide', path: '/reproduction' },
-    { name: 'BT Gen 2 Technology', path: '/sterilization' },
+    { name: 'PPMP Technology', path: '/sterilization' },
     { name: 'Reviews', path: '/reviews' },
     { name: 'Out-of-State', path: '/out-of-state' },
     { name: 'Franchise', path: '/franchise' },

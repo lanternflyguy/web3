@@ -29,7 +29,7 @@ const LaurelHollowPage = () => {
             </h1>
             <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
               Exclusive spotted lanternfly elimination services for Laurel Hollow's waterfront estates and luxury properties. 
-              Protect your prestigious coastal landscape with our patent-pending BT Gen 2 sterilization technology.
+              Protect your prestigious coastal landscape with our patent-pending PPMP sterilization technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3" asChild>

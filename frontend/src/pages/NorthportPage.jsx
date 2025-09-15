@@ -29,7 +29,7 @@ const NorthportPage = () => {
             </h1>
             <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
               Professional spotted lanternfly elimination services for Northport residents and businesses. 
-              Protect your harbor village property with our patent-pending BT Gen 2 sterilization technology.
+              Protect your harbor village property with our patent-pending PPMP sterilization technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3" asChild>

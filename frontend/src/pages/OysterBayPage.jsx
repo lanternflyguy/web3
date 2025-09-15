@@ -29,7 +29,7 @@ const OysterBayPage = () => {
             </h1>
             <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
               Professional spotted lanternfly elimination services for Oyster Bay residents and businesses. 
-              Protect your waterfront property with our patent-pending BT Gen 2 sterilization technology.
+              Protect your waterfront property with our patent-pending PPMP sterilization technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3" asChild>
@@ -150,7 +150,7 @@ const OysterBayPage = () => {
                 </p>
                 <h3 className="text-2xl font-semibold text-yellow-400 mb-4">Advanced Technology</h3>
                 <p className="text-slate-300">
-                  Our patent-pending BT Gen 2 sterilization technology is perfectly suited for protecting Oyster Bay's 
+                  Our patent-pending PPMP sterilization technology is perfectly suited for protecting Oyster Bay's 
                   valuable waterfront properties and mature coastal landscapes.
                 </p>
               </div>

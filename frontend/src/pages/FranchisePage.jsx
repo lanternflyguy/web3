@@ -68,7 +68,7 @@ const FranchisePage = () => {
     { icon: DollarSign, title: 'Investment Range', value: '$75K - $150K', description: 'Total initial investment' },
     { icon: TrendingUp, title: 'ROI Potential', value: '200-400%', description: 'Within 24 months' },
     { icon: Users, title: 'Market Demand', value: 'High Growth', description: 'Expanding pest crisis' },
-    { icon: Award, title: 'Patent Technology', value: 'BT Gen 2', description: 'Competitive advantage' }
+    { icon: Award, title: 'Patent Technology', value: 'PPMP', description: 'Competitive advantage' }
   ];
 
   const requirements = [
@@ -79,7 +79,7 @@ const FranchisePage = () => {
   ];
 
   const benefits = [
-    'Exclusive patent-pending BT Gen 2 sterilization technology',
+    'Exclusive patent-pending PPMP sterilization technology',
     'Comprehensive 4-week training program',
     'Protected territory with population 100K+',
     'Complete marketing and branding package',

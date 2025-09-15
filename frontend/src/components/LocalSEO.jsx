@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 
 const LocalSEO = ({ page = 'home' }) => {
   const baseTitle = "The Lantern Fly Guys - Spotted Lanternfly Removal";
-  const baseDescription = "Professional spotted lanternfly elimination in Nassau County, Suffolk County & Dix Hills NY. Serving Long Island wineries with patent-pending BT Gen 2 technology. 85-90% elimination rate.";
+  const baseDescription = "Professional spotted lanternfly elimination in Nassau County, Suffolk County & Dix Hills NY. Serving Long Island wineries with patent-pending PPMP technology. 85-90% elimination rate.";
   
   const pageConfigs = {
     home: {
@@ -40,7 +40,7 @@ const LocalSEO = ({ page = 'home' }) => {
     "@id": "https://thelanternflyguy.com/#business",
     "name": "The Lantern Fly Guys",
     "alternateName": ["The Lantern Fly Guy Inc", "Lantern Fly Guys Nassau County", "Lantern Fly Guys Suffolk County"],
-    "description": "Professional spotted lanternfly elimination specialists serving Nassau County, Suffolk County, and Dix Hills NY with patent-pending BT Gen 2 technology.",
+    "description": "Professional spotted lanternfly elimination specialists serving Nassau County, Suffolk County, and Dix Hills NY with patent-pending PPMP technology.",
     "url": "https://thelanternflyguy.com",
     "telephone": "+15167250672",
     "email": "chris@lanternflyguy.com",

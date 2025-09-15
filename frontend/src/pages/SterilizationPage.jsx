@@ -29,7 +29,7 @@ const SterilizationPage = () => {
     {
       title: "Reproductive Disruption",
       icon: Target,
-      description: "Our BT Gen 2 system disrupts the spotted lanternfly reproductive cycle at the cellular level",
+      description: "Our PPMP system disrupts the spotted lanternfly reproductive cycle at the cellular level",
       benefits: [
         "Prevents successful mating behaviors",
         "Disrupts egg development process", 
@@ -68,7 +68,7 @@ const SterilizationPage = () => {
     {
       step: 1,
       title: "Precision Application",
-      description: "Our certified technicians apply the patent-pending BT Gen 2 sterilization treatment to targeted areas",
+      description: "Our certified technicians apply the patent-pending PPMP sterilization treatment to targeted areas",
       timeline: "Day 1-3",
       details: [
         "Professional property assessment and mapping",
@@ -143,9 +143,9 @@ const SterilizationPage = () => {
     <div className="min-h-screen bg-slate-900">
       <LocalSEO 
         page="sterilization"
-        title="Patent-Pending Spotted Lanternfly Sterilization | BT Gen 2 Technology Nassau County"
-        description="Revolutionary spotted lanternfly sterilization using patent-pending BT Gen 2 technology. 95% reproductive disruption rate in Nassau County, Suffolk County & Long Island."
-        keywords="spotted lanternfly sterilization, BT Gen 2 technology, lanternfly reproductive control Nassau County, patent pending pest control Suffolk County, biological sterilization Long Island"
+        title="Patent-Pending Spotted Lanternfly Sterilization | PPMP Technology Nassau County"
+        description="Revolutionary spotted lanternfly sterilization using patent-pending PPMP technology. 95% reproductive disruption rate in Nassau County, Suffolk County & Long Island."
+        keywords="spotted lanternfly sterilization, PPMP technology, lanternfly reproductive control Nassau County, patent pending pest control Suffolk County, biological sterilization Long Island"
         canonicalUrl="https://thelanternflyguy.com/sterilization"
       />
 
@@ -168,7 +168,7 @@ const SterilizationPage = () => {
               </span>
             </h1>
             <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-              Our patent-pending BT Gen 2 Enhanced Management System achieves 95% reproductive disruption, 
+              Our patent-pending PPMP Enhanced Management System achieves 95% reproductive disruption, 
               eliminating spotted lanternfly populations through advanced biological sterilization in Nassau County, Suffolk County & Long Island.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -215,7 +215,7 @@ const SterilizationPage = () => {
           <div className="text-center space-y-4 mb-16">
             <Badge className="bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800">Advanced Technology</Badge>
             <h2 className="text-3xl lg:text-4xl font-bold text-white">
-              How BT Gen 2 Sterilization Works
+              How PPMP Sterilization Works
             </h2>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
               Our patent-pending biological sterilization system targets spotted lanternfly reproduction 
@@ -377,7 +377,7 @@ const SterilizationPage = () => {
                   technology is completely safe for humans, pets, beneficial insects, and the environment.
                 </p>
                 <p className="text-lg">
-                  <strong className="text-white">Selective Targeting:</strong> The BT Gen 2 system specifically 
+                  <strong className="text-white">Selective Targeting:</strong> The PPMP system specifically 
                   targets spotted lanternfly reproductive systems without affecting pollinators, butterflies, or other beneficial species.
                 </p>
                 <p className="text-lg">
@@ -421,7 +421,7 @@ const SterilizationPage = () => {
               Patent-Pending Sterilization Services
             </h2>
             <p className="text-xl text-slate-300">
-              Advanced BT Gen 2 sterilization technology available throughout Long Island
+              Advanced PPMP sterilization technology available throughout Long Island
             </p>
           </div>
 
@@ -480,7 +480,7 @@ const SterilizationPage = () => {
             </h2>
             <p className="text-xl text-blue-100">
               Join Nassau County and Suffolk County property owners who've eliminated spotted lanternfly 
-              infestations with our revolutionary BT Gen 2 sterilization system.
+              infestations with our revolutionary PPMP sterilization system.
             </p>
           </div>
           

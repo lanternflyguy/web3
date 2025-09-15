@@ -109,7 +109,7 @@ const LifecycleSection = () => {
             <h3 className="text-2xl font-bold mb-4">Professional Intervention Required</h3>
             <p className="text-slate-300 text-lg mb-6 max-w-3xl mx-auto">
               Each lifecycle stage requires specialized treatment protocols. Our patent-pending 
-              BT Gen 2 system targets all stages simultaneously for complete elimination.
+              PPMP system targets all stages simultaneously for complete elimination.
             </p>
             <div className="flex items-center justify-center space-x-8 text-sm">
               <div className="flex items-center space-x-2">
