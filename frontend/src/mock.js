@@ -137,7 +137,7 @@ export const reviews = [
     name: "Sarah Johnson",
     location: "Dix Hills, NY",
     rating: 5,
-    text: "The Lantern Fly Guys saved our vineyard! Their patent-pending BT Gen 2 system eliminated the spotted lanternfly problem completely. Professional, knowledgeable, and results-driven.",
+    text: "The Lantern Fly Guys saved our vineyard! Their advanced treatment system eliminated the spotted lanternfly problem completely. Professional, knowledgeable, and results-driven. Call or text (516) 870-8356 for expert service!",
     service: "Winery Protection",
     date: "2024-08-15"
   },
