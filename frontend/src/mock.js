@@ -351,7 +351,7 @@ export const teamMembers = [
     phone: "(631) 930-2508",
     email: "chris@lanternflyguy.com",
     specialization: "Business Operations & Strategic Development",
-    bio: "Co-founder and inventor of the revolutionary patent-pending BT Gen 2 system with over 15 years in pest management."
+    bio: "Co-founder and inventor of revolutionary pest management systems with over 15 years in pest management. Call or text (516) 870-8356 for consultation."
   },
   {
     name: "Joseph Cusick", 
