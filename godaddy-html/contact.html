@@ -3,373 +3,392 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - The Lantern Fly Guys | Nassau & Suffolk County Spotted Lanternfly Removal</title>
-    <meta name="description" content="Contact The Lantern Fly Guys for professional spotted lanternfly removal. Call (516) 725-0672 for sales & services or (631) 930-2508 for business info. Serving Nassau & Suffolk County NY.">
-    <meta name="keywords" content="contact lanternfly removal Nassau County, spotted lanternfly exterminator Suffolk County, pest control contact Long Island, emergency pest service NY">
-    <link rel="canonical" href="https://www.thelanternflyguys.com/contact.html">
+    <title>Contact The Lantern Fly Guys | Call (516) 870-8356 | Nassau & Suffolk County Pest Control</title>
+    <meta name="description" content="Contact The Lantern Fly Guys for professional spotted lanternfly elimination. Call or text (516) 870-8356 for free consultation and pricing. Serving Nassau & Suffolk County.">
+    <meta name="keywords" content="contact pest control, spotted lanternfly removal quote, Nassau County pest control, Suffolk County, free consultation">
     
+    <link rel="canonical" href="https://thelanternflyguy.com/contact.html">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦗</text></svg>">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Styles -->
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
+        .gradient-bg {
             background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #1e293b 100%);
         }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
+        .phone-button {
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.4);
+            transition: all 0.3s ease;
         }
-        
-        .header {
-            background: rgba(30, 41, 59, 0.95);
-            backdrop-filter: blur(10px);
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1000;
-            border-bottom: 3px solid #dc2626;
+        .phone-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(220, 38, 38, 0.6);
         }
-        
-        .nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 0;
-        }
-        
-        .logo {
-            color: #ffffff;
-            font-size: 1.5rem;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        
-        .nav-menu {
-            display: flex;
-            list-style: none;
-            gap: 2rem;
-        }
-        
-        .nav-menu a {
-            color: #ffffff;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        
-        .nav-menu a:hover {
-            color: #fbbf24;
-        }
-        
-        .phone-btn {
-            background: #dc2626;
-            color: white;
-            padding: 0.5rem 1.5rem;
-            border: none;
-            border-radius: 5px;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        
-        .main {
-            padding-top: 100px;
-        }
-        
-        .page-header {
-            text-align: center;
-            padding: 60px 0;
-            color: white;
-        }
-        
-        .page-header h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-        
-        .highlight {
-            color: #fbbf24;
-        }
-        
-        .contact-section {
-            padding: 60px 0;
-            background: white;
-        }
-        
-        .section-title {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 3rem;
-            color: #1e293b;
-        }
-        
-        .contact-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-bottom: 4rem;
-        }
-        
         .contact-card {
-            background: #f8fafc;
-            padding: 2rem;
-            border-radius: 10px;
-            text-align: center;
-            border: 2px solid #e2e8f0;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(148, 163, 184, 0.2);
         }
-        
-        .contact-card h3 {
-            color: #dc2626;
-            margin-bottom: 1rem;
-            font-size: 1.3rem;
-        }
-        
-        .contact-card .phone {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #1e293b;
-            margin-bottom: 0.5rem;
-        }
-        
-        .contact-card .description {
-            color: #64748b;
-            font-size: 0.9rem;
-        }
-        
-        .contact-form {
-            max-width: 600px;
-            margin: 0 auto;
-            background: #f8fafc;
-            padding: 2rem;
-            border-radius: 10px;
-        }
-        
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
-        
-        .form-group label {
-            display: block;
-            margin-bottom: 0.5rem;
-            font-weight: bold;
-            color: #1e293b;
-        }
-        
-        .form-group input,
-        .form-group select,
-        .form-group textarea {
-            width: 100%;
-            padding: 0.75rem;
-            border: 2px solid #e2e8f0;
-            border-radius: 5px;
-            font-size: 1rem;
-        }
-        
-        .form-group input:focus,
-        .form-group select:focus,
-        .form-group textarea:focus {
-            outline: none;
-            border-color: #dc2626;
-        }
-        
-        .submit-btn {
-            width: 100%;
-            background: #dc2626;
-            color: white;
-            padding: 1rem;
-            border: none;
-            border-radius: 5px;
-            font-size: 1.1rem;
-            font-weight: bold;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-        
-        .submit-btn:hover {
-            background: #b91c1c;
-        }
-        
-        .emergency-section {
-            padding: 60px 0;
-            background: #dc2626;
-            color: white;
-            text-align: center;
-        }
-        
-        .footer {
-            background: #0f172a;
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-        }
-        
-        @media (max-width: 768px) {
-            .nav-menu { display: none; }
-            .page-header h1 { font-size: 2rem; }
-            .contact-grid { grid-template-columns: 1fr; }
+        .contact-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
-<body>
+<body class="min-h-screen bg-white">
     <!-- Header -->
-    <header class="header">
-        <nav class="nav container">
-            <a href="/" class="logo">🦟 The Lantern Fly Guys</a>
-            <ul class="nav-menu">
-                <li><a href="/">Home</a></li>
-                <li><a href="/services.html">Services</a></li>
-                <li><a href="/pricing.html">Pricing</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-                <li><a href="/towns.html">Service Areas</a></li>
-            </ul>
-            <a href="tel:5167250672" class="phone-btn">(516) 725-0672</a>
-        </nav>
+    <header class="bg-white shadow-lg fixed w-full z-50 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4 md:justify-start md:space-x-10">
+                <!-- Logo -->
+                <div class="flex justify-start lg:w-0 lg:flex-1">
+                    <a href="index.html" class="flex items-center space-x-2">
+                        <div class="w-10 h-10 bg-gradient-to-br from-red-600 to-red-700 rounded-lg flex items-center justify-center shadow-lg">
+                            <span class="text-white font-bold text-lg">🦗</span>
+                        </div>
+                        <span class="text-xl font-bold text-gray-900">The Lantern Fly Guys</span>
+                    </a>
+                </div>
+                
+                <!-- Navigation -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-red-600 transition-colors font-medium">Home</a>
+                    <a href="services.html" class="text-gray-700 hover:text-red-600 transition-colors font-medium">Services</a>
+                    <a href="contact.html" class="text-red-600 font-medium">Contact</a>
+                </nav>
+                
+                <!-- Phone Number -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="tel:5168708356" class="phone-button text-white px-6 py-3 rounded-lg font-semibold text-lg flex items-center space-x-2">
+                        <span>📞</span>
+                        <span>(516) 870-8356</span>
+                    </a>
+                </div>
+                
+                <!-- Mobile Phone Button -->
+                <div class="md:hidden">
+                    <a href="tel:5168708356" class="phone-button text-white px-4 py-2 rounded-lg font-semibold text-sm flex items-center space-x-1">
+                        <span>📞</span>
+                        <span>(516) 870-8356</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <main class="main">
-        <!-- Page Header -->
-        <section class="page-header">
-            <div class="container">
-                <h1>Contact <span class="highlight">The Experts</span></h1>
-                <p>New York's Premier #1 Spotted Lanternfly Removal Service</p>
-            </div>
-        </section>
+    <!-- Hero Section -->
+    <section class="gradient-bg pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl font-bold text-white mb-6">Contact The Lantern Fly Guys</h1>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
+                Ready to protect your property from spotted lanternflies? Call or text us for a free consultation and custom pricing for your specific needs.
+            </p>
+            <a href="tel:5168708356" class="phone-button text-white px-8 py-4 rounded-lg font-bold text-xl inline-flex items-center space-x-3">
+                <span>📞</span>
+                <span>Call or Text: (516) 870-8356</span>
+            </a>
+            <p class="text-gray-300 text-sm mt-4">Available 24/7 for emergency response</p>
+        </div>
+    </section>
 
-        <!-- Contact Information -->
-        <section class="contact-section">
-            <div class="container">
-                <h2 class="section-title">Get In Touch Today</h2>
-                <div class="contact-grid">
-                    <div class="contact-card">
-                        <h3>📧 PRIMARY - Appointments & Bookings</h3>
-                        <div class="phone"><a href="mailto:chris@lanternflyguy.com" style="color: #dc2626; text-decoration: none;">chris@lanternflyguy.com</a></div>
-                        <div class="description">Best way to book appointments and services</div>
+    <!-- Contact Options -->
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Multiple Ways to Reach Us</h2>
+                <p class="text-xl text-gray-600">Choose the contact method that works best for you</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Phone Contact -->
+                <div class="contact-card bg-white rounded-xl p-8 shadow-sm text-center">
+                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-red-600 text-3xl">📞</span>
                     </div>
-                    <div class="contact-card">
-                        <h3>📞 Sales & Service Line</h3>
-                        <div class="phone"><a href="tel:5167250672" style="color: #dc2626; text-decoration: none;">(516) 725-0672</a></div>
-                        <div class="description">Sales, services, and emergency support</div>
-                    </div>
-                    <div class="contact-card">
-                        <h3>ℹ️ Business & Technology Info</h3>
-                        <div class="phone"><a href="tel:6319302508" style="color: #dc2626; text-decoration: none;">(631) 930-2508</a></div>
-                        <div class="description">Questions about technology, business, or company info</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Call or Text</h3>
+                    <p class="text-gray-600 mb-6">
+                        Fastest way to get help. Speak directly with our experts for immediate assistance and custom pricing quotes.
+                    </p>
+                    <a href="tel:5168708356" class="phone-button text-white w-full px-6 py-4 rounded-lg font-bold text-lg flex items-center justify-center space-x-2 mb-4">
+                        <span>📞</span>
+                        <span>(516) 870-8356</span>
+                    </a>
+                    <div class="text-sm text-gray-500">
+                        <p>• Free consultation</p>
+                        <p>• Custom pricing quotes</p>
+                        <p>• Same-day response</p>
+                        <p>• Emergency service available</p>
                     </div>
                 </div>
-
-                <!-- Contact Form -->
-                <div class="contact-form">
-                    <h3 style="text-align: center; margin-bottom: 2rem; color: #1e293b;">Request Free Assessment</h3>
-                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-                        <div class="form-group">
-                            <label for="name">Full Name *</label>
-                            <input type="text" id="name" name="name" required>
+                
+                <!-- Email Contact -->
+                <div class="contact-card bg-white rounded-xl p-8 shadow-sm text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-blue-600 text-3xl">✉️</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Email Us</h3>
+                    <p class="text-gray-600 mb-6">
+                        Send us details about your property and pest issues. We'll respond with customized recommendations and pricing.
+                    </p>
+                    <a href="mailto:chris@lanternflyguy.com" class="bg-blue-600 hover:bg-blue-700 text-white w-full px-6 py-4 rounded-lg font-bold text-lg flex items-center justify-center space-x-2 mb-4 transition-colors">
+                        <span>✉️</span>
+                        <span>chris@lanternflyguy.com</span>
+                    </a>
+                    <div class="text-sm text-gray-500">
+                        <p>• Detailed responses</p>
+                        <p>• Property assessment forms</p>
+                        <p>• Service documentation</p>
+                        <p>• Business inquiries</p>
+                    </div>
+                </div>
+                
+                <!-- Business Hours -->
+                <div class="contact-card bg-white rounded-xl p-8 shadow-sm text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-green-600 text-3xl">🕒</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Business Hours</h3>
+                    <p class="text-gray-600 mb-6">
+                        Regular business hours for consultations and service scheduling. Emergency response available 24/7.
+                    </p>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex justify-between items-center">
+                            <span class="font-semibold text-gray-700">Monday - Friday</span>
+                            <span class="text-gray-600">9:00 AM - 5:00 PM</span>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Email Address *</label>
-                            <input type="email" id="email" name="email" required>
+                        <div class="flex justify-between items-center">
+                            <span class="font-semibold text-gray-700">Emergency Service</span>
+                            <span class="text-red-600 font-semibold">24/7</span>
                         </div>
-                        <div class="form-group">
-                            <label for="phone">Phone Number *</label>
-                            <input type="tel" id="phone" name="phone" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="property-type">Property Type *</label>
-                            <select id="property-type" name="property-type" required>
-                                <option value="">Select Property Type</option>
-                                <option value="residential">Residential</option>
-                                <option value="commercial">Commercial</option>
-                                <option value="hoa">HOA Community</option>
-                                <option value="winery">Winery/Vineyard</option>
-                                <option value="municipal">Municipal</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="location">Property Location *</label>
-                            <input type="text" id="location" name="location" placeholder="City, NY" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="service">Service Needed</label>
-                            <select id="service" name="service">
-                                <option value="">Select Service</option>
-                                <option value="assessment">Free Assessment</option>
-                                <option value="treatment">Treatment Service</option>
-                                <option value="emergency">Emergency Response</option>
-                                <option value="bt-gen2">BT Gen 2 Technology</option>
-                                <option value="organic">Organic Treatment</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="preferred-contact">Preferred Contact Method</label>
-                            <select id="preferred-contact" name="preferred-contact">
-                                <option value="email">Email</option>
-                                <option value="phone">Phone</option>
-                                <option value="text">Text Message</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Additional Information</label>
-                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your spotted lanternfly concerns..."></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">Request Free Assessment</button>
-                    </form>
+                    </div>
+                    <div class="text-sm text-gray-500">
+                        <p>• Normal business consultations</p>
+                        <p>• Service scheduling</p>
+                        <p>• Follow-up calls</p>
+                        <p>• Emergency response anytime</p>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Emergency Section -->
-        <section class="emergency-section">
-            <div class="container">
-                <h2>24/7 Emergency Response Available</h2>
-                <p>Severe infestation? Need immediate help? Our emergency response teams are standing by.</p>
-                <a href="tel:5167250672" style="background: white; color: #dc2626; padding: 1rem 2rem; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 1rem;">Emergency Hotline: (516) 725-0672</a>
+    <!-- Service Areas -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Service Areas</h2>
+                <p class="text-xl text-gray-600">Proudly serving Nassau and Suffolk Counties</p>
             </div>
-        </section>
-    </main>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Primary Service Areas</h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-gray-50 rounded-lg p-4">
+                            <h4 class="font-semibold text-gray-900 mb-2">Nassau County</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Manhasset</li>
+                                <li>• Plainview</li>
+                                <li>• Oyster Bay</li>
+                                <li>• Upper Brookville</li>
+                                <li>• Roslyn</li>
+                                <li>• All communities</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-50 rounded-lg p-4">
+                            <h4 class="font-semibold text-gray-900 mb-2">Suffolk County</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Commack</li>
+                                <li>• Northport</li>
+                                <li>• East Northport</li>
+                                <li>• Smithtown</li>
+                                <li>• Melville</li>
+                                <li>• All communities</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-6 p-4 bg-blue-50 rounded-lg">
+                        <p class="text-blue-800 font-semibold">Don't see your area listed?</p>
+                        <p class="text-blue-700 text-sm mt-1">We serve the entire Long Island region. Call (516) 870-8356 to check availability in your area.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-br from-red-50 to-red-100 rounded-2xl p-8">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Ready to Get Started?</h3>
+                    <div class="space-y-4 mb-6">
+                        <div class="flex items-center space-x-3">
+                            <span class="text-green-500 text-xl">✓</span>
+                            <span class="text-gray-700">Free property assessment</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="text-green-500 text-xl">✓</span>
+                            <span class="text-gray-700">Custom treatment recommendations</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="text-green-500 text-xl">✓</span>
+                            <span class="text-gray-700">Transparent pricing - no hidden fees</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="text-green-500 text-xl">✓</span>
+                            <span class="text-gray-700">Same-day response guarantee</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="text-green-500 text-xl">✓</span>
+                            <span class="text-gray-700">OMRI organic certified treatments</span>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-3">
+                        <a href="tel:5168708356" class="phone-button text-white w-full px-6 py-4 rounded-lg font-bold text-lg flex items-center justify-center space-x-2">
+                            <span>📞</span>
+                            <span>Call or Text: (516) 870-8356</span>
+                        </a>
+                        <a href="mailto:chris@lanternflyguy.com" class="bg-white text-gray-900 w-full px-6 py-4 rounded-lg font-semibold text-lg hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2 border border-gray-200">
+                            <span>✉️</span>
+                            <span>Email for Details</span>
+                        </a>
+                    </div>
+                    
+                    <p class="text-center text-sm text-gray-600 mt-4">
+                        Speak with our experts today for custom pricing and service recommendations
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Call Us -->
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Why Call The Lantern Fly Guys?</h2>
+                <p class="text-xl text-gray-600">Professional expertise you can trust</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-red-600 text-4xl">🎯</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">85-90% Success Rate</h3>
+                    <p class="text-gray-600">Industry-leading elimination rates with proven PPMP technology</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-green-600 text-4xl">🌿</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">100% Organic</h3>
+                    <p class="text-gray-600">OMRI certified treatments safe for families, pets, and environment</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-blue-600 text-4xl">⚡</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">24/7 Emergency</h3>
+                    <p class="text-gray-600">Emergency response available around the clock when you need us most</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-purple-600 text-4xl">👨‍🔬</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Expert Team</h3>
+                    <p class="text-gray-600">Licensed professionals with specialized spotted lanternfly expertise</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-24 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-white mb-6">Don't Wait - Protect Your Property Today</h2>
+            <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                Spotted lanternflies can cause serious damage to your trees and property. Contact us now for immediate assistance and custom pricing for your specific needs.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+                <a href="tel:5168708356" class="phone-button text-white px-8 py-4 rounded-lg font-bold text-xl inline-flex items-center justify-center space-x-3">
+                    <span>📞</span>
+                    <span>Call or Text: (516) 870-8356</span>
+                </a>
+                <a href="mailto:chris@lanternflyguy.com" class="bg-white text-slate-900 px-8 py-4 rounded-lg font-bold text-xl hover:bg-gray-100 transition-colors inline-flex items-center justify-center space-x-2">
+                    <span>✉️</span>
+                    <span>Email for Quote</span>
+                </a>
+            </div>
+            <div class="text-gray-300 text-sm space-y-1">
+                <p>✓ Free consultation and property assessment</p>
+                <p>✓ Custom pricing based on your specific needs</p>
+                <p>✓ Same-day response • Licensed & insured</p>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 The Lantern Fly Guys Inc. New York's Premier #1 Spotted Lanternfly Removal Service.</p>
-            <p>Licensed • Insured • EPA Registered • OMRI Certified</p>
-            <p>Serving Nassau County, Suffolk County, and Long Island with professional spotted lanternfly control.</p>
+    <footer class="bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-red-600 to-red-700 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">🦗</span>
+                        </div>
+                        <span class="text-xl font-bold">The Lantern Fly Guys</span>
+                    </div>
+                    <p class="text-gray-300 mb-4 max-w-md">
+                        Nassau and Suffolk County's premier spotted lanternfly elimination specialists. OMRI organic certified treatments with 85-90% success rates.
+                    </p>
+                    <div class="space-y-2">
+                        <div class="flex items-center space-x-3">
+                            <span class="text-gray-400">📞</span>
+                            <a href="tel:5168708356" class="text-white hover:text-red-400 transition-colors font-semibold">(516) 870-8356</a>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="text-gray-400">✉️</span>
+                            <a href="mailto:chris@lanternflyguy.com" class="text-white hover:text-red-400 transition-colors">chris@lanternflyguy.com</a>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="text-gray-400">📍</span>
+                            <span class="text-gray-300">Nassau & Suffolk Counties, Long Island, NY</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quick Contact -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Contact</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="tel:5168708356" class="hover:text-white transition-colors">📞 Call or Text</a></li>
+                        <li><a href="mailto:chris@lanternflyguy.com" class="hover:text-white transition-colors">✉️ Email Quote</a></li>
+                        <li><span class="text-gray-400">🕒 Mon-Fri 9AM-5PM</span></li>
+                        <li><span class="text-red-400">⚡ 24/7 Emergency</span></li>
+                    </ul>
+                </div>
+                
+                <!-- Emergency Contact -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Emergency Service</h3>
+                    <div class="space-y-4">
+                        <a href="tel:5168708356" class="phone-button text-white w-full px-4 py-3 rounded-lg font-semibold text-sm flex items-center justify-center space-x-2">
+                            <span>📞</span>
+                            <span>(516) 870-8356</span>
+                        </a>
+                        <p class="text-xs text-gray-400 text-center">Available 24/7 for severe infestations</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400 text-sm">
+                    © 2024 The Lantern Fly Guys. All rights reserved. Licensed pest management professionals serving Nassau & Suffolk Counties.
+                </p>
+            </div>
         </div>
     </footer>
-
-    <script>
-        // Form submission handling
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(this);
-            const data = Object.fromEntries(formData);
-            
-            // For GoDaddy hosting, you can use Formspree or similar service
-            // Replace YOUR_FORM_ID with actual Formspree form ID
-            fetch(this.action, {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'Accept': 'application/json'
-                }
-            }).then(response => {
-                if (response.ok) {
-                    alert('Thank you! We will contact you within 24 hours for your free assessment.');
-                    this.reset();
-                } else {
-                    alert('Thank you for your interest! Please call (516) 725-0672 for immediate assistance.');
-                }
-            }).catch(error => {
-                alert('Thank you for your interest! Please call (516) 725-0672 for immediate assistance.');
-            });
-        });
-    </script>
 </body>
 </html>
