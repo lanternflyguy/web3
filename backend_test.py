@@ -13,7 +13,7 @@ from typing import Dict, Any
 import uuid
 
 # Get backend URL from environment
-BACKEND_URL = "https://treeguard-app.preview.emergentagent.com/api"
+BACKEND_URL = "https://exterminator-web-1.preview.emergentagent.com/api"
 
 class BackendTester:
     def __init__(self):
