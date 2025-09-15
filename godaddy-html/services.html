@@ -3,452 +3,410 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Spotted Lanternfly Services | The Lantern Fly Guys Nassau & Suffolk County</title>
-    <meta name="description" content="Comprehensive spotted lanternfly removal services in Nassau & Suffolk County. Residential, commercial, HOA, municipal, and vineyard protection. OMRI organic, EPA registered.">
-    <meta name="keywords" content="spotted lanternfly services Nassau County, pest control Suffolk County, residential lanternfly removal, commercial pest management, HOA services Long Island">
-    <link rel="canonical" href="https://www.thelanternflyguys.com/services.html">
+    <title>Professional Pest Management Services | The Lantern Fly Guys | Nassau & Suffolk County</title>
+    <meta name="description" content="Comprehensive spotted lanternfly elimination services. Residential, commercial, emergency response, and PPMP technology. Call (516) 870-8356 for expert service!">
+    <meta name="keywords" content="pest management services, spotted lanternfly elimination, residential pest control, commercial pest control, Nassau County, Suffolk County">
     
+    <link rel="canonical" href="https://thelanternflyguy.com/services.html">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦗</text></svg>">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Styles -->
     <style>
-        /* Include the same base styles from index.html */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
+        .gradient-bg {
             background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #1e293b 100%);
         }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
+        .phone-button {
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.4);
+            transition: all 0.3s ease;
         }
-        
-        /* Header Styles */
-        .header {
-            background: rgba(30, 41, 59, 0.95);
-            backdrop-filter: blur(10px);
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1000;
-            border-bottom: 3px solid #dc2626;
+        .phone-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(220, 38, 38, 0.6);
         }
-        
-        .nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 0;
-        }
-        
-        .logo {
-            display: flex;
-            align-items: center;
-            color: #ffffff;
-            font-size: 1.5rem;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        
-        .nav-menu {
-            display: flex;
-            list-style: none;
-            gap: 2rem;
-        }
-        
-        .nav-menu a {
-            color: #ffffff;
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-        
-        .nav-menu a:hover {
-            color: #fbbf24;
-        }
-        
-        .phone-btn {
-            background: #dc2626;
-            color: white;
-            padding: 0.5rem 1.5rem;
-            border: none;
-            border-radius: 5px;
-            font-weight: bold;
-            text-decoration: none;
-            transition: background 0.3s;
-        }
-        
-        .phone-btn:hover {
-            background: #b91c1c;
-        }
-        
-        /* Main Content */
-        .main {
-            padding-top: 100px;
-            min-height: 100vh;
-        }
-        
-        .page-header {
-            text-align: center;
-            padding: 60px 0;
-            color: white;
-        }
-        
-        .page-header h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-        
-        .highlight {
-            color: #fbbf24;
-        }
-        
-        .services-section {
-            padding: 60px 0;
-            background: white;
-        }
-        
-        .section-title {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 3rem;
-            color: #1e293b;
-        }
-        
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-            margin-bottom: 4rem;
-        }
-        
         .service-card {
-            background: #f8fafc;
-            padding: 2rem;
-            border-radius: 10px;
-            border-left: 4px solid #dc2626;
-            transition: transform 0.3s;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(148, 163, 184, 0.2);
         }
-        
         .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-        }
-        
-        .service-card h3 {
-            color: #dc2626;
-            margin-bottom: 1rem;
-            font-size: 1.3rem;
-        }
-        
-        .service-card p {
-            color: #64748b;
-            line-height: 1.6;
-            margin-bottom: 1rem;
-        }
-        
-        .service-features {
-            list-style: none;
-            margin-top: 1rem;
-        }
-        
-        .service-features li {
-            padding: 0.25rem 0;
-            display: flex;
-            align-items: center;
-            color: #475569;
-        }
-        
-        .service-features li:before {
-            content: "✓";
-            color: #10b981;
-            font-weight: bold;
-            margin-right: 0.5rem;
-        }
-        
-        .pricing-highlight {
-            background: #fef3c7;
-            padding: 1rem;
-            border-radius: 5px;
-            margin-top: 1rem;
-            text-align: center;
-        }
-        
-        .pricing-highlight .price {
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: #dc2626;
-        }
-        
-        .cta-section {
-            padding: 60px 0;
-            background: #dc2626;
-            color: white;
-            text-align: center;
-        }
-        
-        .btn-primary {
-            background: white;
-            color: #dc2626;
-            padding: 1rem 2rem;
-            border: none;
-            border-radius: 5px;
-            font-size: 1.1rem;
-            font-weight: bold;
-            text-decoration: none;
-            transition: all 0.3s;
-            display: inline-block;
-            margin: 0.5rem;
-        }
-        
-        .btn-primary:hover {
-            background: #f1f5f9;
-        }
-        
-        .footer {
-            background: #0f172a;
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-        }
-        
-        @media (max-width: 768px) {
-            .nav-menu {
-                display: none;
-            }
-            
-            .page-header h1 {
-                font-size: 2rem;
-            }
-            
-            .services-grid {
-                grid-template-columns: 1fr;
-            }
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
         }
     </style>
 </head>
-<body>
+<body class="min-h-screen bg-white">
     <!-- Header -->
-    <header class="header">
-        <nav class="nav container">
-            <a href="/" class="logo">
-                🦟 The Lantern Fly Guys
-            </a>
-            <ul class="nav-menu">
-                <li><a href="/">Home</a></li>
-                <li><a href="/services.html">Services</a></li>
-                <li><a href="/pricing.html">Pricing</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-                <li><a href="/towns.html">Service Areas</a></li>
-            </ul>
-            <a href="tel:5167250672" class="phone-btn">(516) 725-0672</a>
-        </nav>
+    <header class="bg-white shadow-lg fixed w-full z-50 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4 md:justify-start md:space-x-10">
+                <!-- Logo -->
+                <div class="flex justify-start lg:w-0 lg:flex-1">
+                    <a href="index.html" class="flex items-center space-x-2">
+                        <div class="w-10 h-10 bg-gradient-to-br from-red-600 to-red-700 rounded-lg flex items-center justify-center shadow-lg">
+                            <span class="text-white font-bold text-lg">🦗</span>
+                        </div>
+                        <span class="text-xl font-bold text-gray-900">The Lantern Fly Guys</span>
+                    </a>
+                </div>
+                
+                <!-- Navigation -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-red-600 transition-colors font-medium">Home</a>
+                    <a href="services.html" class="text-red-600 font-medium">Services</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-red-600 transition-colors font-medium">Contact</a>
+                </nav>
+                
+                <!-- Phone Number -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="tel:5168708356" class="phone-button text-white px-6 py-3 rounded-lg font-semibold text-lg flex items-center space-x-2">
+                        <span>📞</span>
+                        <span>(516) 870-8356</span>
+                    </a>
+                </div>
+                
+                <!-- Mobile Phone Button -->
+                <div class="md:hidden">
+                    <a href="tel:5168708356" class="phone-button text-white px-4 py-2 rounded-lg font-semibold text-sm flex items-center space-x-1">
+                        <span>📞</span>
+                        <span>(516) 870-8356</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <!-- Main Content -->
-    <main class="main">
-        <!-- Page Header -->
-        <section class="page-header">
-            <div class="container">
-                <h1>Professional <span class="highlight">Spotted Lanternfly</span> Services</h1>
-                <p>Comprehensive pest control solutions for Nassau & Suffolk County</p>
-            </div>
-        </section>
+    <!-- Hero Section -->
+    <section class="gradient-bg pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl font-bold text-white mb-6">Professional Pest Management Services</h1>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
+                Comprehensive spotted lanternfly elimination solutions for residential, commercial, and municipal properties across Nassau and Suffolk Counties.
+            </p>
+            <a href="tel:5168708356" class="phone-button text-white px-8 py-4 rounded-lg font-bold text-lg inline-flex items-center space-x-2">
+                <span>📞</span>
+                <span>Call (516) 870-8356 for Free Consultation</span>
+            </a>
+        </div>
+    </section>
 
-        <!-- Services Section -->
-        <section class="services-section">
-            <div class="container">
-                <h2 class="section-title">Complete Service Menu</h2>
+    <!-- Services Grid -->
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 
-                <div class="services-grid">
-                    <!-- Residential Services -->
-                    <div class="service-card">
-                        <h3>🏠 Residential Protection</h3>
-                        <p>Complete property protection for homes and estates using our patent-pending BT Gen 2 sterilization technology.</p>
-                        <ul class="service-features">
-                            <li>Property assessment and inspection</li>
-                            <li>Heritage tree protection</li>
-                            <li>85-90% elimination rate</li>
-                            <li>2-3 season protection</li>
-                            <li>BioCertified Living Sentinels</li>
-                            <li>30-60 day warranty</li>
-                        </ul>
-                        <div class="pricing-highlight">
-                            <div class="price">$350 - $1,500</div>
-                            <div>Based on property size</div>
-                        </div>
+                <!-- Residential Protection -->
+                <div class="service-card bg-white rounded-xl p-8 shadow-sm">
+                    <div class="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-red-600 text-3xl">🏠</span>
                     </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Residential Property Protection</h3>
+                    <p class="text-gray-600 mb-6">Complete spotted lanternfly elimination for homes and residential properties with comprehensive season-long protection plans.</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Professional Property Inspection</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Customized Treatment Plans</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Season-Long Protection</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Heritage Tree Preservation</span>
+                        </li>
+                    </ul>
+                    <a href="tel:5168708356" class="text-red-600 font-semibold hover:text-red-700 transition-colors flex items-center space-x-2">
+                        <span>Call (516) 870-8356 for pricing</span>
+                        <span>→</span>
+                    </a>
+                </div>
 
-                    <!-- Commercial Services -->
-                    <div class="service-card">
-                        <h3>🏢 Commercial Services</h3>
-                        <p>Business-friendly treatments with minimal disruption to operations and customers.</p>
-                        <ul class="service-features">
-                            <li>Flexible scheduling</li>
-                            <li>Minimal business disruption</li>
-                            <li>Staff education programs</li>
-                            <li>Detailed reporting</li>
-                            <li>Ongoing monitoring</li>
-                            <li>Professional documentation</li>
-                        </ul>
-                        <div class="pricing-highlight">
-                            <div class="price">$500 - $5,000+</div>
-                            <div>Based on facility size</div>
-                        </div>
+                <!-- PPMP Technology -->
+                <div class="service-card bg-white rounded-xl p-8 shadow-sm">
+                    <div class="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-red-600 text-3xl">🛡️</span>
                     </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">PPMP Enhanced Management</h3>
+                    <p class="text-gray-600 mb-6">Our Preventative Pest Management Procedure achieves 85-90% spotted lanternfly elimination through advanced treatment systems.</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">OMRI Organic Compliance</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">85-90% Elimination Rate</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Safe for Families & Pets</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Long-Lasting Results</span>
+                        </li>
+                    </ul>
+                    <a href="tel:5168708356" class="text-red-600 font-semibold hover:text-red-700 transition-colors flex items-center space-x-2">
+                        <span>Call (516) 870-8356 for consultation</span>
+                        <span>→</span>
+                    </a>
+                </div>
 
-                    <!-- HOA Community Services -->
-                    <div class="service-card">
-                        <h3>🏘️ HOA Community Services</h3>
-                        <p>Bulk pricing and community-wide protection programs for homeowner associations.</p>
-                        <ul class="service-features">
-                            <li>Community-wide treatments</li>
-                            <li>Bulk pricing discounts</li>
-                            <li>Resident education workshops</li>
-                            <li>Board reporting and updates</li>
-                            <li>Preventive maintenance</li>
-                            <li>Emergency response priority</li>
-                        </ul>
-                        <div class="pricing-highlight">
-                            <div class="price">$2,500 - $15,000</div>
-                            <div>Community-wide coverage</div>
-                        </div>
+                <!-- Emergency Response -->
+                <div class="service-card bg-white rounded-xl p-8 shadow-sm">
+                    <div class="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-red-600 text-3xl">⚡</span>
                     </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">24/7 Emergency Response</h3>
+                    <p class="text-gray-600 mb-6">Rapid response services for severe infestations and urgent pest situations requiring immediate professional intervention.</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">24/7 Availability</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Rapid Deployment Team</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Crisis Management</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Same-Day Service</span>
+                        </li>
+                    </ul>
+                    <a href="tel:5168708356" class="text-red-600 font-semibold hover:text-red-700 transition-colors flex items-center space-x-2">
+                        <span>Call (516) 870-8356 now</span>
+                        <span>→</span>
+                    </a>
+                </div>
 
-                    <!-- Winery & Vineyard Protection -->
-                    <div class="service-card">
-                        <h3>🍇 Winery & Vineyard Protection</h3>
-                        <p>OMRI organic certified treatments safe for grape production and wine tourism.</p>
-                        <ul class="service-features">
-                            <li>OMRI organic certification</li>
-                            <li>Harvest-safe applications</li>
-                            <li>Tourism area protection</li>
-                            <li>Season-long coverage</li>
-                            <li>Wine quality preservation</li>
-                            <li>Agricultural compliance</li>
-                        </ul>
-                        <div class="pricing-highlight">
-                            <div class="price">$1,500 - $75,000</div>
-                            <div>Per acre pricing available</div>
-                        </div>
+                <!-- Commercial Services -->
+                <div class="service-card bg-white rounded-xl p-8 shadow-sm">
+                    <div class="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-red-600 text-3xl">🏢</span>
                     </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Commercial Property Services</h3>
+                    <p class="text-gray-600 mb-6">Specialized pest management solutions for businesses, HOAs, wineries, and municipal properties requiring professional-grade treatment.</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Business Property Protection</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">HOA Community Services</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Winery & Vineyard Care</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Municipal Contracts</span>
+                        </li>
+                    </ul>
+                    <a href="tel:5168708356" class="text-red-600 font-semibold hover:text-red-700 transition-colors flex items-center space-x-2">
+                        <span>Call (516) 870-8356 for quote</span>
+                        <span>→</span>
+                    </a>
+                </div>
 
-                    <!-- Municipal Services -->
-                    <div class="service-card">
-                        <h3>🏛️ Municipal Services</h3>
-                        <p>Large-scale treatments for parks, recreation areas, and public spaces.</p>
-                        <ul class="service-features">
-                            <li>Parks and recreation protection</li>
-                            <li>Multi-county coordination</li>
-                            <li>Public education programs</li>
-                            <li>Emergency response teams</li>
-                            <li>Government compliance</li>
-                            <li>Contract pricing available</li>
-                        </ul>
-                        <div class="pricing-highlight">
-                            <div class="price">$5,000 - $150,000+</div>
-                            <div>Contract pricing</div>
-                        </div>
+                <!-- Organic Treatment -->
+                <div class="service-card bg-white rounded-xl p-8 shadow-sm">
+                    <div class="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-red-600 text-3xl">🌿</span>
                     </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Organic Treatment Systems</h3>
+                    <p class="text-gray-600 mb-6">OMRI certified organic pesticide applications providing effective spotted lanternfly elimination while maintaining environmental safety.</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">OMRI Certified Products</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Adult Elimination Focus</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Residual Protection</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Eco-Friendly Application</span>
+                        </li>
+                    </ul>
+                    <a href="tel:5168708356" class="text-red-600 font-semibold hover:text-red-700 transition-colors flex items-center space-x-2">
+                        <span>Call (516) 870-8356 for details</span>
+                        <span>→</span>
+                    </a>
+                </div>
 
-                    <!-- Soil Treatment System -->
-                    <div class="service-card">
-                        <h3>🌱 Soil Treatment System</h3>
-                        <p>Advanced soil injection technology providing 6-8 months of extended protection.</p>
-                        <ul class="service-features">
-                            <li>LFG Soil Injector 3000</li>
-                            <li>300mL+ precision injection</li>
-                            <li>Root zone protection</li>
-                            <li>6-8 month duration</li>
-                            <li>Soil health improvement</li>
-                            <li>Professional equipment</li>
-                        </ul>
-                        <div class="pricing-highlight">
-                            <div class="price">$150 - $2,000</div>
-                            <div>Per treatment area</div>
-                        </div>
+                <!-- Soil Treatment -->
+                <div class="service-card bg-white rounded-xl p-8 shadow-sm">
+                    <div class="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-red-600 text-3xl">🌱</span>
                     </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Soil Treatment System</h3>
+                    <p class="text-gray-600 mb-6">Advanced soil-based treatment providing systemic protection through plant root uptake for comprehensive pest management.</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Root Zone Application</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Systemic Protection</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Long-Lasting Results</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="text-green-500 font-bold">✓</span>
+                            <span class="text-gray-700">Organic Compliance</span>
+                        </li>
+                    </ul>
+                    <a href="tel:5168708356" class="text-red-600 font-semibold hover:text-red-700 transition-colors flex items-center space-x-2">
+                        <span>Call (516) 870-8356 for assessment</span>
+                        <span>→</span>
+                    </a>
+                </div>
 
-                    <!-- BT Gen 2 Sterilization -->
-                    <div class="service-card">
-                        <h3>⚗️ Patent-Pending BT Gen 2 Sterilization</h3>
-                        <p>Revolutionary sterilization technology exclusive to The Lantern Fly Guys.</p>
-                        <ul class="service-features">
-                            <li>Patent-pending technology</li>
-                            <li>BioCertified Living Sentinels</li>
-                            <li>2-3 season protection</li>
-                            <li>85-90% elimination rate</li>
-                            <li>Exclusive methodology</li>
-                            <li>Premium service option</li>
-                        </ul>
-                        <div class="pricing-highlight">
-                            <div class="price">+$200 - $1,500</div>
-                            <div>Premium technology add-on</div>
-                        </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Our Services -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Why Choose Our Services?</h2>
+                <p class="text-xl text-gray-600">Professional expertise delivering proven results</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-green-600 text-4xl">🎯</span>
                     </div>
-
-                    <!-- Organic Treatment -->
-                    <div class="service-card">
-                        <h3>🌿 OMRI Organic Treatment</h3>
-                        <p>Certified organic treatments safe for families, pets, and the environment.</p>
-                        <ul class="service-features">
-                            <li>OMRI certified organic</li>
-                            <li>EPA registered formulation</li>
-                            <li>Family and pet safe</li>
-                            <li>Immediate re-entry</li>
-                            <li>Landscape safe</li>
-                            <li>Environmental compliance</li>
-                        </ul>
-                        <div class="pricing-highlight">
-                            <div class="price">$300 - $1,500</div>
-                            <div>Organic premium pricing</div>
-                        </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">85-90% Success Rate</h3>
+                    <p class="text-gray-600">Industry-leading elimination rates with proven treatment methods</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-green-600 text-4xl">🌿</span>
                     </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">100% Organic</h3>
+                    <p class="text-gray-600">OMRI certified treatments safe for families, pets, and environment</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-green-600 text-4xl">⚡</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">24/7 Response</h3>
+                    <p class="text-gray-600">Emergency services available around the clock when you need us</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-green-600 text-4xl">🏆</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Expert Team</h3>
+                    <p class="text-gray-600">Licensed professionals with years of specialized experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    <!-- Emergency Services -->
-                    <div class="service-card">
-                        <h3>🚨 24/7 Emergency Services</h3>
-                        <p>Rapid response teams available for severe infestations and crisis situations.</p>
-                        <ul class="service-features">
-                            <li>24/7 availability</li>
-                            <li>Rapid deployment teams</li>
-                            <li>Crisis management</li>
-                            <li>Same-day response</li>
-                            <li>Emergency equipment</li>
-                            <li>Priority scheduling</li>
-                        </ul>
-                        <div class="pricing-highlight">
-                            <div class="price">Standard + 50-100%</div>
-                            <div>Emergency surcharge</div>
+    <!-- Call to Action -->
+    <section class="py-24 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-white mb-6">Ready to Protect Your Property?</h2>
+            <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                Don't let spotted lanternflies damage your property. Get professional treatment from Nassau and Suffolk County's leading pest management experts.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="tel:5168708356" class="phone-button text-white px-8 py-4 rounded-lg font-bold text-lg inline-flex items-center justify-center space-x-2">
+                    <span>📞</span>
+                    <span>Call Now: (516) 870-8356</span>
+                </a>
+                <a href="contact.html" class="bg-white text-slate-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors inline-flex items-center justify-center space-x-2">
+                    <span>Get Free Quote</span>
+                    <span>→</span>
+                </a>
+            </div>
+            <p class="text-gray-300 text-sm mt-4">Free consultations • Same-day response • Licensed & insured</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-red-600 to-red-700 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">🦗</span>
+                        </div>
+                        <span class="text-xl font-bold">The Lantern Fly Guys</span>
+                    </div>
+                    <p class="text-gray-300 mb-4 max-w-md">
+                        Premier spotted lanternfly elimination specialists serving Nassau and Suffolk Counties with OMRI organic compliant treatments.
+                    </p>
+                    <div class="space-y-2">
+                        <div class="flex items-center space-x-3">
+                            <span class="text-gray-400">📞</span>
+                            <a href="tel:5168708356" class="text-white hover:text-red-400 transition-colors font-semibold">(516) 870-8356</a>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="text-gray-400">✉️</span>
+                            <a href="mailto:chris@lanternflyguy.com" class="text-white hover:text-red-400 transition-colors">chris@lanternflyguy.com</a>
                         </div>
                     </div>
                 </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Services</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Get Help Now</h3>
+                    <div class="space-y-4">
+                        <a href="tel:5168708356" class="phone-button text-white w-full px-4 py-3 rounded-lg font-semibold text-sm flex items-center justify-center space-x-2">
+                            <span>📞</span>
+                            <span>Call Now</span>
+                        </a>
+                        <p class="text-xs text-gray-400 text-center">Available 24/7 for emergencies</p>
+                    </div>
+                </div>
             </div>
-        </section>
-
-        <!-- CTA Section -->
-        <section class="cta-section">
-            <div class="container">
-                <h2>Ready to Protect Your Property?</h2>
-                <p>Contact New York's #1 spotted lanternfly removal service for professional assessment and treatment.</p>
-                <a href="tel:5167250672" class="btn-primary">Call (516) 725-0672</a>
-                <a href="/contact.html" class="btn-primary">Free Assessment</a>
-                <a href="/pricing.html" class="btn-primary">View Pricing</a>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400 text-sm">
+                    © 2024 The Lantern Fly Guys. All rights reserved. Professional pest management services.
+                </p>
             </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 The Lantern Fly Guys Inc. New York's Premier #1 Spotted Lanternfly Removal Service.</p>
-            <p>Licensed • Insured • EPA Registered • OMRI Certified</p>
         </div>
     </footer>
 </body>
