@@ -227,7 +227,7 @@ export const reviews = [
     name: "Amanda Brown",
     location: "Muttontown, NY",
     rating: 5,
-    text: "The BT Gen 2 sterilization technology is incredible! 2-3 seasons of protection - best investment we've made for our property.",
+    text: "Advanced treatment technology is incredible! 2-3 seasons of protection - best investment we've made for our property. Call or text (516) 870-8356 for pricing!",
     service: "BT Gen 2 Treatment",
     date: "2024-07-20"
   },
