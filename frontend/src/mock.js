@@ -228,7 +228,7 @@ export const reviews = [
     location: "Muttontown, NY",
     rating: 5,
     text: "Advanced treatment technology is incredible! 2-3 seasons of protection - best investment we've made for our property. Call or text (516) 870-8356 for pricing!",
-    service: "BT Gen 2 Treatment",
+    service: "Advanced Treatment",
     date: "2024-07-20"
   },
   {
