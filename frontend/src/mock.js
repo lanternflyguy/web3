@@ -323,8 +323,8 @@ export const faqData = [
     answer: "The spotted lanternfly is an invasive insect that feeds on tree sap, weakening plants and trees. They secrete honeydew which promotes sooty mold growth, further damaging vegetation and creating sticky surfaces on outdoor furniture and vehicles."
   },
   {
-    question: "How effective is your patent-pending BT Gen 2 Enhanced Management System?",
-    answer: "Our patent-pending BT Gen 2 system achieves 85-90% spotted lanternfly elimination with season-long protection. It's OMRI organic compliant and completely safe for people, pets, and beneficial insects."
+    question: "How effective is your advanced pest management system?",
+    answer: "Our advanced pest management system achieves 85-90% spotted lanternfly elimination with season-long protection. It's OMRI organic compliant and completely safe for people, pets, and beneficial insects. Call or text (516) 870-8356 for consultation!"
   },
   {
     question: "Do you offer emergency services?",
