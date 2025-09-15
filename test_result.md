@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Perform comprehensive testing of The Lantern Fly Guys website for production readiness and search engine optimization. Test all API endpoints, database connections, contact forms, phone number links, navigation functionality, mobile responsiveness, SEO optimization verification, content verification, and production readiness."
+user_problem_statement: "Convert The Lantern Fly Guys React application to static HTML for GoDaddy hosting. Remove all pricing information and replace with 'call for pricing'. Update all phone numbers to (516) 870-8356. Remove all 'BT Gen 2' references and replace with call-to-action messaging. Keep all service-linked pages and town-specific pages."
 
 backend:
   - task: "FastAPI Root Endpoint"
