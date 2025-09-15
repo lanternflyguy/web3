@@ -348,7 +348,7 @@ export const teamMembers = [
   {
     name: "Christopher Schenker",
     title: "CEO & Co-Inventor",
-    phone: "(631) 930-2508",
+    phone: "(516) 870-8356",
     email: "chris@lanternflyguy.com",
     specialization: "Business Operations & Strategic Development",
     bio: "Co-founder and inventor of revolutionary pest management systems with over 15 years in pest management. Call or text (516) 870-8356 for consultation."
