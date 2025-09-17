@@ -50,30 +50,26 @@ const PricingPage = () => {
     {
       name: "Small Commercial",
       size: "Up to 5,000 sq ft",
-      initial: "$500 - $800",
-      monthly: "$300 - $500",
-      features: ["Business-friendly scheduling", "Minimal disruption"]
+      pricing: "Call for custom pricing",
+      features: ["Business-friendly scheduling", "Minimal disruption", "Professional consultation"]
     },
     {
       name: "Medium Commercial",
-      size: "5,000 - 20,000 sq ft",
-      initial: "$800 - $1,500",
-      monthly: "$500 - $800",
-      features: ["Staff training", "Detailed reporting"]
+      size: "5,000 - 20,000 sq ft", 
+      pricing: "Call for custom pricing",
+      features: ["Staff training", "Detailed reporting", "Custom treatment plans"]
     },
     {
       name: "Large Commercial",
       size: "20,000+ sq ft",
-      initial: "$1,500 - $3,000",
-      monthly: "$800 - $1,500",
-      features: ["Comprehensive management", "Compliance documentation"]
+      pricing: "Call for custom pricing",
+      features: ["Comprehensive management", "Compliance documentation", "Priority service"]
     },
     {
       name: "Industrial/Manufacturing",
       size: "Large facilities",
-      initial: "$2,000 - $5,000",
-      monthly: "$1,000 - $2,500",
-      features: ["Safety protocols", "24/7 support", "Minimal downtime"]
+      pricing: "Call for custom pricing",
+      features: ["Safety protocols", "24/7 support", "Minimal downtime", "Emergency response"]
     }
   ];
 
