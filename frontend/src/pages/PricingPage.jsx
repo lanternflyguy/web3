@@ -93,24 +93,18 @@ const PricingPage = () => {
   const specializedTreatments = [
     {
       name: "PPMP (Preventative Pest Management Procedure) Sterilization",
-      residential: "+$200 - $400 premium",
-      commercial: "+$400 - $800 premium",
-      large: "+$800 - $1,500 premium",
-      description: "2-3 season protection with cutting-edge technology"
+      pricing: "Call for specialized pricing",
+      description: "2-3 season protection with cutting-edge technology - custom pricing based on property needs"
     },
     {
       name: "Organic Residual Application",
-      small: "$300 - $500",
-      medium: "$500 - $800",
-      large: "$800 - $1,500",
-      description: "OMRI certified products, family-safe application"
+      pricing: "Call for treatment pricing",
+      description: "OMRI certified products, family-safe application - pricing varies by property size"
     },
     {
       name: "Soil Treatment System",
-      perSqFt: "$150 - $300 per 1,000 sq ft",
-      rootZone: "$200 - $400 per tree",
-      fullProperty: "$500 - $2,000",
-      description: "6-8 month protection, soil health improvement"
+      pricing: "Call for assessment & pricing",
+      description: "6-8 month protection, soil health improvement - custom pricing per property assessment"
     }
   ];
 
