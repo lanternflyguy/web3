@@ -148,13 +148,6 @@ const LocalSEO = ({ page = 'home' }) => {
         "jobTitle": "CEO & Co-Inventor",
         "telephone": "+15167250672",
         "email": "chris@lanternflyguy.com"
-      },
-      {
-        "@type": "Person",
-        "name": "Joseph Cusick", 
-        "jobTitle": "CTO & Co-Inventor",
-        "telephone": "+15167250672",
-        "email": "joecusick@thelanternflyguy.com"
       }
     ]
   };
