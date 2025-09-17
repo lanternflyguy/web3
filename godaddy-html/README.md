@@ -40,11 +40,25 @@ godaddy-html/
 - Complete contact information
 
 ### services.html
-- Detailed service descriptions
+- Detailed core service descriptions
 - PPMP technology information
 - Residential, commercial, and emergency services
 - Organic treatment details
 - Professional credentials showcase
+
+### additional-services.html
+- Specialized professional services
+- Consultation and training programs
+- Municipal and government contracts
+- Emergency response services
+- Sustainability initiatives and reporting
+
+### attic-remediation.html
+- Complete attic decontamination services
+- Animal waste removal and cleanup
+- Insulation replacement and restoration
+- Structural repair and animal proofing
+- Health hazard elimination and air quality restoration
 
 ### contact.html
 - Multiple contact methods (phone, email, hours)
