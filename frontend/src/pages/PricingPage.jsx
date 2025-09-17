@@ -353,8 +353,7 @@ const PricingPage = () => {
                     </div>
                     <div>
                       <div className="font-semibold text-yellow-400">Crisis Management</div>
-                      <div className="text-sm text-slate-300">Rapid deployment: $500-$1,000 fee</div>
-                      <div className="text-sm text-slate-300">Large infestations: $2,000-$5,000+</div>
+                      <div className="text-sm text-slate-300">Call for emergency pricing</div>
                     </div>
                   </div>
                 </CardContent>
