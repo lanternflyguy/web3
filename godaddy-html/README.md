@@ -22,6 +22,7 @@ This is a complete static HTML version of The Lantern Fly Guys website, optimize
 godaddy-html/
 ├── index.html               # Main homepage with full service highlight box
 ├── services.html           # Core services overview page
+├── property-management.html # Property management pest control services
 ├── termite-control.html    # Professional termite control & elimination
 ├── rodent-control.html     # Professional rodent control & elimination
 ├── additional-services.html # Additional professional services
