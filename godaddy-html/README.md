@@ -20,8 +20,10 @@ This is a complete static HTML version of The Lantern Fly Guys website, optimize
 ## File Structure
 ```
 godaddy-html/
-├── index.html               # Main homepage
+├── index.html               # Main homepage with full service highlight box
 ├── services.html           # Core services overview page
+├── termite-control.html    # Professional termite control & elimination
+├── rodent-control.html     # Professional rodent control & elimination
 ├── additional-services.html # Additional professional services
 ├── attic-remediation.html  # Attic decontamination & remediation services
 ├── contact.html            # Contact information and forms
