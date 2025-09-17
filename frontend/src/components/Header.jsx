@@ -14,7 +14,7 @@ const Header = () => {
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'Services', path: '/services' },
-    { name: 'Pricing', path: '/pricing' },
+    { name: 'Contact', path: '/contact' },
     { name: 'HOA Solutions', path: '/hoa' },
     { name: 'Wineries', path: '/wineries' },
     { name: 'Municipal', path: '/municipal' },
@@ -23,8 +23,7 @@ const Header = () => {
     { name: 'Reviews', path: '/reviews' },
     { name: 'Out-of-State', path: '/out-of-state' },
     { name: 'Franchise', path: '/franchise' },
-    { name: 'Pamphlet', path: '/pamphlet' },
-    { name: 'Contact', path: '/contact' }
+    { name: 'Pamphlet', path: '/pamphlet' }
   ];
 
   const isActive = (path) => location.pathname === path;
