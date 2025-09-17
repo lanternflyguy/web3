@@ -68,12 +68,6 @@ const SEOHead = ({
             "name": "Christopher Schenker",
             "jobTitle": "CEO & Co-Inventor",
             "email": "chris@lanternflyguy.com"
-          },
-          {
-            "@type": "Person", 
-            "name": "Joseph Cusick",
-            "jobTitle": "CTO & Co-Inventor",
-            "email": "joecusick@thelanternflyguy.com"
           }
         ],
         "sameAs": [
