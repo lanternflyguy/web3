@@ -6,7 +6,7 @@ export const companyInfo = {
   phone: "(516) 870-8356",
   alternatePhone: "(516) 870-8356",
   email: "chris@lanternflyguy.com",
-  alternateEmail: "joecusick@thelanternflyguy.com",
+  alternateEmail: "chris@lanternflyguy.com",
   address: "228 Park Avenue South, New York, NY 11003",
   hours: "Monday - Friday: 9:00 AM - 5:00 PM",
   emergencyService: "24/7 Emergency Response Available"
