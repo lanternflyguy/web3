@@ -352,14 +352,6 @@ export const teamMembers = [
     email: "chris@lanternflyguy.com",
     specialization: "Business Operations & Strategic Development",
     bio: "Co-founder and inventor of revolutionary pest management systems with over 15 years in pest management. Call or text (516) 870-8356 for consultation."
-  },
-  {
-    name: "Joseph Cusick", 
-    title: "CTO & Co-Inventor",
-    phone: "(516) 870-8356",
-    email: "joecusick@thelanternflyguy.com",
-    specialization: "Technology Development & Innovation",
-    bio: "Technical co-founder focused on developing cutting-edge spotted lanternfly elimination technologies."
   }
 ];
 
