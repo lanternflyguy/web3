@@ -323,18 +323,15 @@ const PricingPage = () => {
                   <div className="space-y-3">
                     <div>
                       <div className="font-semibold text-yellow-400">Parks & Recreation</div>
-                      <div className="text-sm text-slate-300">Small: $1,000 - $2,500</div>
-                      <div className="text-sm text-slate-300">Large: $6,000 - $15,000</div>
+                      <div className="text-sm text-slate-300">Call for municipal pricing</div>
                     </div>
                     <div>
                       <div className="font-semibold text-yellow-400">Municipal Buildings</div>
-                      <div className="text-sm text-slate-300">City Halls: $500 - $1,500</div>
-                      <div className="text-sm text-slate-300">Schools: $1,000 - $3,000</div>
+                      <div className="text-sm text-slate-300">Call for government rates</div>
                     </div>
                     <div>
                       <div className="font-semibold text-yellow-400">Contract Discounts</div>
-                      <div className="text-sm text-slate-300">Annual: 10-20% off</div>
-                      <div className="text-sm text-slate-300">Multi-year: 15-25% off</div>
+                      <div className="text-sm text-slate-300">Volume discounts available</div>
                     </div>
                   </div>
                 </CardContent>
