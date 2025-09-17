@@ -77,23 +77,20 @@ const PricingPage = () => {
     {
       name: "Small HOA Communities",
       size: "10-25 homes",
-      cost: "$2,500 - $4,000",
-      perHome: "$100 - $160",
-      features: ["Bulk pricing", "Community education", "Board reporting"]
+      pricing: "Call for community pricing",
+      features: ["Bulk community rates", "Community education", "Board reporting", "Coordinated scheduling"]
     },
     {
-      name: "Medium HOA Communities",
+      name: "Medium HOA Communities", 
       size: "25-75 homes",
-      cost: "$4,000 - $8,000",
-      perHome: "$80 - $130",
-      features: ["Resident workshops", "Detailed reporting", "Preventive programs"]
+      pricing: "Call for community pricing",
+      features: ["Resident workshops", "Detailed reporting", "Preventive programs", "Priority support"]
     },
     {
       name: "Large HOA Communities",
-      size: "75+ homes",
-      cost: "$8,000 - $15,000",
-      perHome: "$60 - $110",
-      features: ["Full community management", "Ongoing education", "Priority service"]
+      size: "75+ homes", 
+      pricing: "Call for community pricing",
+      features: ["Full community management", "Ongoing education", "Priority service", "Dedicated account manager"]
     }
   ];
 
