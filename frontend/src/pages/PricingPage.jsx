@@ -274,55 +274,9 @@ const PricingPage = () => {
                     <CardDescription className="text-slate-400">{treatment.description}</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <div className="space-y-3">
-                      {treatment.residential && (
-                        <div>
-                          <span className="text-sm text-slate-300">Residential: </span>
-                          <span className="font-semibold text-yellow-400">{treatment.residential}</span>
-                        </div>
-                      )}
-                      {treatment.commercial && (
-                        <div>
-                          <span className="text-sm text-slate-300">Commercial: </span>
-                          <span className="font-semibold text-yellow-400">{treatment.commercial}</span>
-                        </div>
-                      )}
-                      {treatment.large && (
-                        <div>
-                          <span className="text-sm text-slate-300">Large Properties: </span>
-                          <span className="font-semibold text-yellow-400">{treatment.large}</span>
-                        </div>
-                      )}
-                      {treatment.small && (
-                        <div>
-                          <span className="text-sm text-slate-300">Small Properties: </span>
-                          <span className="font-semibold text-yellow-400">{treatment.small}</span>
-                        </div>
-                      )}
-                      {treatment.medium && (
-                        <div>
-                          <span className="text-sm text-slate-300">Medium Properties: </span>
-                          <span className="font-semibold text-yellow-400">{treatment.medium}</span>
-                        </div>
-                      )}
-                      {treatment.perSqFt && (
-                        <div>
-                          <span className="text-sm text-slate-300">Per 1,000 sq ft: </span>
-                          <span className="font-semibold text-yellow-400">{treatment.perSqFt}</span>
-                        </div>
-                      )}
-                      {treatment.rootZone && (
-                        <div>
-                          <span className="text-sm text-slate-300">Root Zone: </span>
-                          <span className="font-semibold text-yellow-400">{treatment.rootZone}</span>
-                        </div>
-                      )}
-                      {treatment.fullProperty && (
-                        <div>
-                          <span className="text-sm text-slate-300">Full Property: </span>
-                          <span className="font-semibold text-yellow-400">{treatment.fullProperty}</span>
-                        </div>
-                      )}
+                    <div className="text-center">
+                      <div className="text-lg font-bold text-yellow-400 mb-2">{treatment.pricing}</div>
+                      <div className="text-sm text-slate-300">Contact us for specialized consultation</div>
                     </div>
                   </CardContent>
                 </Card>
