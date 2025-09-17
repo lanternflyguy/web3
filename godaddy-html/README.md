@@ -20,11 +20,13 @@ This is a complete static HTML version of The Lantern Fly Guys website, optimize
 ## File Structure
 ```
 godaddy-html/
-├── index.html          # Main homepage
-├── services.html       # Services overview page
-├── contact.html        # Contact information and forms
-├── towns.html          # Service areas listing
-└── README.md          # This file
+├── index.html               # Main homepage
+├── services.html           # Core services overview page
+├── additional-services.html # Additional professional services
+├── attic-remediation.html  # Attic decontamination & remediation services
+├── contact.html            # Contact information and forms
+├── towns.html              # Service areas listing
+└── README.md              # This file
 ```
 
 ## Page Details
