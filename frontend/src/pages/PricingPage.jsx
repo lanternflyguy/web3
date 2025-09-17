@@ -11,36 +11,32 @@ const PricingPage = () => {
     {
       name: "Basic Residential",
       size: "Up to 1/4 acre",
-      initial: "$350 - $450",
-      followup: "$250 - $350",
-      features: ["Property inspection", "Targeted treatment", "30-day warranty"],
+      pricing: "Call for custom pricing",
+      features: ["Property inspection", "Targeted treatment", "Service guarantee", "Professional consultation"],
       icon: Shield,
       popular: false
     },
     {
       name: "Standard Residential",
       size: "1/4 to 1/2 acre",
-      initial: "$450 - $650",
-      followup: "$350 - $450",
-      features: ["Full property treatment", "Heritage tree protection", "60-day warranty"],
+      pricing: "Call for custom pricing",
+      features: ["Full property treatment", "Heritage tree protection", "Extended service guarantee", "Priority scheduling"],
       icon: Star,
       popular: true
     },
     {
       name: "Premium Residential",
       size: "1/2 to 1 acre",
-      initial: "$650 - $950",
-      followup: "$450 - $650",
-      features: ["Comprehensive treatment", "Soil application", "Season-long protection"],
+      pricing: "Call for custom pricing",
+      features: ["Comprehensive treatment", "Soil application", "Season-long protection", "Regular monitoring"],
       icon: Award,
       popular: false
     },
     {
-      name: "Estate Protection",
+      name: "Estate Protection",  
       size: "1+ acres",
-      initial: "$950 - $1,500",
-      followup: "$650 - $950",
-      features: ["Full estate coverage", "Quarterly monitoring", "VIP service"],
+      pricing: "Call for custom pricing",
+      features: ["Full estate coverage", "Quarterly monitoring", "VIP service", "Dedicated account manager"],
       icon: Building,
       popular: false
     }
