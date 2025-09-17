@@ -35,6 +35,7 @@ godaddy-html/
 
 ### index.html (Homepage)
 - Hero section with company branding
+- **NEW: Full Service Highlight Box** - Emphasizes comprehensive pest management including rodent control, termite elimination, and property management specialization
 - Service overview cards
 - Stats showcase (1,000+ properties, 85-90% success rate)
 - Multiple call-to-action buttons
@@ -47,6 +48,24 @@ godaddy-html/
 - Residential, commercial, and emergency services
 - Organic treatment details
 - Professional credentials showcase
+
+### termite-control.html
+- **NEW: Complete termite control services**
+- Termite inspection and detection
+- Active termite elimination treatments
+- Prevention systems and monitoring
+- Structural damage assessment
+- Emergency termite response
+- Commercial and residential solutions
+
+### rodent-control.html
+- **NEW: Professional rodent elimination services**
+- Comprehensive rodent inspection
+- Safe elimination and trapping systems
+- Entry point sealing and prevention
+- Cleanup and sanitization services
+- Health risk mitigation
+- Emergency rodent response
 
 ### additional-services.html
 - Specialized professional services
