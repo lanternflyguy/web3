@@ -12,7 +12,6 @@ import ContactPage from "./pages/ContactPage";
 import ReproductionPage from "./pages/ReproductionPage";
 import SterilizationPage from "./pages/SterilizationPage";
 import OrganicTreatmentPage from "./pages/OrganicTreatmentPage";
-import PricingPage from "./pages/PricingPage";
 import ManhassetPage from "./pages/ManhassetPage";
 import PlainviewPage from "./pages/PlainviewPage";
 import OysterBayPage from "./pages/OysterBayPage";
