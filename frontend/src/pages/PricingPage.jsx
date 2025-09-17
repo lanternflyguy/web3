@@ -299,18 +299,15 @@ const PricingPage = () => {
                   <div className="space-y-3">
                     <div>
                       <div className="font-semibold text-yellow-400">Small (1-5 acres)</div>
-                      <div className="text-sm text-slate-300">$1,500 - $3,000 initial</div>
-                      <div className="text-sm text-slate-300">$300 - $600 per acre</div>
+                      <div className="text-sm text-slate-300">Call for vineyard pricing</div>
                     </div>
                     <div>
                       <div className="font-semibold text-yellow-400">Medium (5-20 acres)</div>
-                      <div className="text-sm text-slate-300">$3,000 - $8,000 initial</div>
-                      <div className="text-sm text-slate-300">$250 - $500 per acre</div>
+                      <div className="text-sm text-slate-300">Call for vineyard pricing</div>
                     </div>
                     <div>
                       <div className="font-semibold text-yellow-400">Large (20+ acres)</div>
-                      <div className="text-sm text-slate-300">$8,000 - $20,000 initial</div>
-                      <div className="text-sm text-slate-300">$200 - $400 per acre</div>
+                      <div className="text-sm text-slate-300">Call for vineyard pricing</div>
                     </div>
                   </div>
                 </CardContent>
