@@ -50,6 +50,15 @@ godaddy-html/
 - Organic treatment details
 - Professional credentials showcase
 
+### property-management.html
+- **NEW: Comprehensive property management pest control services**
+- Multi-unit building services with door-to-door treatment
+- HOA community programs with bulk pricing
+- Real estate management solutions for multiple properties
+- Integrated pest management with advanced tracking
+- Emergency response and comprehensive reporting
+- Specialized services for property managers and real estate companies
+
 ### termite-control.html
 - **NEW: Complete termite control services**
 - Termite inspection and detection
