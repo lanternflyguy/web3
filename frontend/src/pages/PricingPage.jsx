@@ -175,10 +175,8 @@ const PricingPage = () => {
                     </CardHeader>
                     <CardContent>
                       <div className="text-center mb-6">
-                        <div className="text-2xl font-bold text-yellow-400 mb-2">{pkg.initial}</div>
-                        <div className="text-sm text-slate-300">Initial Treatment</div>
-                        <div className="text-lg font-semibold text-white mt-2">{pkg.followup}</div>
-                        <div className="text-sm text-slate-300">Follow-up Treatments</div>
+                        <div className="text-2xl font-bold text-yellow-400 mb-2">{pkg.pricing}</div>
+                        <div className="text-sm text-slate-300">Contact us for detailed quote</div>
                       </div>
                       <ul className="space-y-2">
                         {pkg.features.map((feature, idx) => (
