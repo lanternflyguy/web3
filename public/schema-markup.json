@@ -1,0 +1,210 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://thelanternflyguy.com/#organization",
+      "name": "The Lantern Fly Guys Inc",
+      "alternateName": ["The Lantern Fly Guys", "Lantern Fly Guys Nassau County", "Lantern Fly Guys Suffolk County"],
+      "url": "https://thelanternflyguy.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://thelanternflyguy.com/images/logo.png",
+        "width": 300,
+        "height": 300
+      },
+      "image": "https://thelanternflyguy.com/images/company-photo.jpg",
+      "description": "Professional spotted lanternfly elimination specialists serving Nassau County, Suffolk County, and Dix Hills NY. Patent-pending BT Gen 2 technology with 85-90% elimination rate.",
+      "telephone": "+15167250672",
+      "email": "chris@lanternflyguy.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "228 Park Avenue South",
+        "addressLocality": "New York",
+        "addressRegion": "NY", 
+        "postalCode": "11003",
+        "addressCountry": "US"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+15167250672",
+          "contactType": "customer service",
+          "areaServed": ["Nassau County", "Suffolk County", "Long Island"],
+          "availableLanguage": ["English"],
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "17:00"
+          }
+        },
+        {
+          "@type": "ContactPoint", 
+          "telephone": "+15169302508",
+          "contactType": "technical support",
+          "areaServed": ["Nassau County", "Suffolk County", "Long Island"],
+          "availableLanguage": ["English"]
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/LanternFlyGuysInc",
+        "https://www.linkedin.com/company/lantern-fly-guys-inc",
+        "https://www.tiktok.com/@lanternflyguys",
+        "https://www.instagram.com/lanternflyguys",
+        "https://www.yelp.com/biz/the-lantern-fly-guys"
+      ],
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Christopher Schenker",
+          "jobTitle": "CEO & Co-Inventor",
+          "email": "chris@lanternflyguy.com",
+          "telephone": "+15168708356"
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://thelanternflyguy.com/#localbusiness",
+      "name": "The Lantern Fly Guys",
+      "image": "https://thelanternflyguy.com/images/storefront.jpg",
+      "telephone": "+15167250672",
+      "email": "chris@lanternflyguy.com",
+      "url": "https://thelanternflyguy.com",
+      "paymentAccepted": ["Cash", "Credit Card", "Check", "Invoice"],
+      "currenciesAccepted": "USD",
+      "openingHours": [
+        "Mo-Fr 09:00-17:00",
+        "Sa 09:00-15:00"
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "40.7831",
+        "longitude": "-73.9712"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "228 Park Avenue South",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "11003",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Nassau County",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "New York"
+          }
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Suffolk County",
+          "containedInPlace": {
+            "@type": "AdministrativeArea", 
+            "name": "New York"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Dix Hills",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Suffolk County"
+          }
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "40.7831",
+          "longitude": "-73.9712"
+        },
+        "geoRadius": "50000"
+      },
+      "priceRange": "$$",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "100",
+        "bestRating": "5",
+        "worstRating": "4"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://thelanternflyguy.com/#service",
+      "name": "Spotted Lanternfly Elimination",
+      "description": "Professional spotted lanternfly removal services using patent-pending BT Gen 2 technology achieving 85-90% elimination rates.",
+      "provider": {
+        "@id": "https://thelanternflyguy.com/#organization"
+      },
+      "areaServed": [
+        "Nassau County, NY",
+        "Suffolk County, NY", 
+        "Dix Hills, NY",
+        "Long Island, NY"
+      ],
+      "serviceType": "Pest Control",
+      "category": "Professional Services",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Pest Control Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Long Island Winery Pest Control",
+              "description": "Specialized spotted lanternfly removal for wineries and vineyards on Long Island"
+            },
+            "areaServed": "Long Island, NY",
+            "priceRange": "$$$"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service", 
+              "name": "Nassau County Lanternfly Removal",
+              "description": "Residential and commercial spotted lanternfly elimination in Nassau County"
+            },
+            "areaServed": "Nassau County, NY",
+            "priceRange": "$$"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Suffolk County Pest Management", 
+              "description": "Complete pest control and lanternfly removal services throughout Suffolk County"
+            },
+            "areaServed": "Suffolk County, NY",
+            "priceRange": "$$"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://thelanternflyguy.com/#website",
+      "url": "https://thelanternflyguy.com",
+      "name": "The Lantern Fly Guys - Nassau County Suffolk County Pest Control",
+      "description": "Professional spotted lanternfly elimination in Nassau County, Suffolk County, and Dix Hills NY",
+      "publisher": {
+        "@id": "https://thelanternflyguy.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://thelanternflyguy.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
